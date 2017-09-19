@@ -6,10 +6,10 @@
 name: Daniel Raff
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Medical Student. Data Science Student.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://avatars3.githubusercontent.com/u/6750799?v=4&s=400
 
 #
 # Flags below are optional
@@ -18,16 +18,16 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook:
+  email: daniel18raff@gmail.com
+  facebook: https://www.facebook.com/daniel.raff
   flickr:
-  github: barryclark/jekyll-now
+  github: https://github.com/raffrica/
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  twitter: twitter.com/raffrica
+  stackoverflow: https://stackexchange.com/users/11795004/raffrica
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
