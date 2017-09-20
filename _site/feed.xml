@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll-Uno</title>
+    <description>Jekyll-Uno - a minimal, responsive theme for Jekyll</description>
+    <link>http://localhost:4000/jekyll-uno/</link>
+    <atom:link href="http://localhost:4000/jekyll-uno/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 19 Sep 2017 20:03:52 -0700</pubDate>
+    <lastBuildDate>Tue, 19 Sep 2017 20:03:52 -0700</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Your First Breath</title>
+        <description>&lt;p&gt;I wrote the passage below after my first experience in seeing a baby come in to this world.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I’ve always felt deprived of my childhood memories. People share stories about what they felt when they were five years old, but I very rarely actually feel these memories. To me it’s more like I’m looking at a photo of the event; in fact, perhaps most of my memories are just memories of memories - memories of a photo or event as described to me by others. This is certainly the way it feels most of the time, but when I do have a memory of my childhood, a &lt;em&gt;real&lt;/em&gt; memory, it completely envelopes me. I relive it.&lt;/p&gt;
+
+&lt;p&gt;It was in the Cardiology block in my 1st year of medical school. The tutor for our small group session looked around and asked if we knew what happened to the circulation system when that baby takes its first breath. This concept seemed oddly familiar. The gears in my brain slowly turned, and a vivid memory crashed into me. I must have been 5 or 6,  sitting in one of the tall chairs (not quite as tall to me anymore) that accompany the granite counter-top in our kitchen at home. My dad (who dabbles as a cardiologist) was explaining in his characteristically over-detailed manner, cardiac circulation. “See in a baby, the lungs don’t need to breathe because the baby is still inside the tummy” he explained, going on to detail how with the first breath all of a sudden the blood that previously skipped the lungs, now went there. He explained to me how there were these pathways that allowed the blood to skip the lungs and other parts of the body and how these closed when the baby took that breath.&lt;/p&gt;
+
+&lt;p&gt;Surprised at this unlocked knowledge, I blurted it out in our small group session and managed to piece together the information: how the PDA (&lt;a href=&quot;https://en.wikipedia.org/wiki/Patent_ductus_arteriosus&quot;&gt;patent ductus arteriosus&lt;/a&gt;) closes, how the circulation changes cause a change in pressure making the left atrium greater than the right atrium and the closure of the foramen ovale (and admittedly didn’t touch on the bypass of the liver through the ductus venosus which also closes).&lt;/p&gt;
+
+&lt;p&gt;Pretty excited that I’d remembered something from 10 years ago, I tucked this memory away. A few weeks later, I was shadowing an anesthesiologist on a school night. It was already 12am and I had class the next morning at 8am. The resident turned to me and said that I can go home if I want to, but that if I stick around for another hour I can see a C-section. Well obviously I stayed. The whole thing was amazing.. I’ll fast forward to the moment. I’m at the foot of the bed, watching as the surgeons first pull this tan and wet blob out of her. One surgeon pushes, while the other pulls. The baby is vigorously plucked out. It’s blue, but I didn’t realize quite how blue. It’s a girl. In what seemed like an eternity, there’s no sound, and then SHE BREATHES. She cries. So quickly, she turns from her blue-ish colour to a bright pink. I saw this happen. This amazing miracle that first enticed me when I was a child, then I learned intellectually, I was unfold before my eyes. I was seeing as the resistance in her lungs decreased and blood started to flow in that direction. I was seeing as her right atrial pressure decreased and her foramen ovale was physiologically shut. I was seeing as she started to oxygenate her &lt;em&gt;own&lt;/em&gt; blood. MIND BLOWING.&lt;/p&gt;
+
+&lt;p&gt;This pattern of being curious about something, then learning about it, then actually seeing it has got to be one of the most significant learning experiences of my life. I am so excited to repeat this throughout medicine.&lt;/p&gt;
+
+&lt;p&gt;Another thing that I’m very excited for is to have a son of my own, who I can pass this down to. Someone that I can put in that spark of curiosity and explanation that lights a fire in them the same way my dad did so for me.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Sep 2017 10:48:23 -0700</pubDate>
+        <link>http://localhost:4000/jekyll-uno/2017/Your-First-Breath/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-uno/2017/Your-First-Breath/</guid>
+        
+        <category>medicine</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>First Blog Post</title>
+        <description>&lt;hr /&gt;
+&lt;p&gt;layout: post
+title: First Blog Post
+—&lt;/p&gt;
+
+&lt;p&gt;In the beginning there was:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hello World.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That is all.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Sep 2017 08:04:23 -0700</pubDate>
+        <link>http://localhost:4000/jekyll-uno/2017/Hello-World/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-uno/2017/Hello-World/</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 08 Jan 2016 07:04:23 -0800</pubDate>
+        <link>http://localhost:4000/jekyll-uno/2016/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll-uno/2016/welcome-to-jekyll/</guid>
+        
+        <category>jekyll</category>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>

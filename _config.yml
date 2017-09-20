@@ -1,18 +1,18 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+title: Daniel Raff's Blog
+description: Medical Student. Data Science Student
+url: 'https://raffrica.github.io/'
+baseurl:
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Daniel Raff'
+  email: daniel18raff@gmail.com
+  twitter_username: raffrica
+  facebook_username: daniel.raff
+  github_username:  raffrica
+  linkedin_username:  danielraff
 
 defaults:
   -
