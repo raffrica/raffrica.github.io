@@ -1,6 +1,8 @@
 ---
-layout: post
-title: Your First Breath
+title:  "Your First Breath"
+date:   2017-09-19 17:48:23
+categories: [jekyll]
+tags: [medicine]
 ---
 
 I wrote the passage below after my first experience in seeing a baby come in to this world. 
