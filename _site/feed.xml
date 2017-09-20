@@ -5,15 +5,13 @@
     <description>Medical Student. Data Science Student</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 19 Sep 2017 20:25:34 -0700</pubDate>
-    <lastBuildDate>Tue, 19 Sep 2017 20:25:34 -0700</lastBuildDate>
+    <pubDate>Tue, 19 Sep 2017 20:37:45 -0700</pubDate>
+    <lastBuildDate>Tue, 19 Sep 2017 20:37:45 -0700</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
         <title>What is a Website Address?</title>
-        <description>&lt;h1 id=&quot;what-is-a-website-address&quot;&gt;What is a Website Address?&lt;/h1&gt;
-
-&lt;p&gt;You open up your internet browser, type in a website address (&lt;em&gt;URL&lt;/em&gt;) and within seconds, you arrive at your destination. But what goes on under the hood? How does typing in a URL load a webpage, and not just any webpage for that matter, but the unique webpage you requested?&lt;/p&gt;
+        <description>&lt;p&gt;You open up your internet browser, type in a website address (&lt;em&gt;URL&lt;/em&gt;) and within seconds, you arrive at your destination. But what goes on under the hood? How does typing in a URL load a webpage, and not just any webpage for that matter, but the unique webpage you requested?&lt;/p&gt;
 
 &lt;p&gt;Before we can discuss website addresses, we should ask &lt;em&gt;what is a website?&lt;/em&gt; Take a website like &lt;code class=&quot;highlighter-rouge&quot;&gt;reddit.com&lt;/code&gt; When we access Reddit and spend hours looking at &lt;a href=&quot;https://www.reddit.com/r/aww/&quot;&gt;pictures of cats&lt;/a&gt;, what we are actually doing is checking out the content on Reddit’s servers (or the content that it references on other servers).&lt;/p&gt;
 
@@ -100,13 +98,13 @@
 
 &lt;p&gt;To understand this, let’s take apart a URL and find out what’s inside:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;../images/blog/anatomy_of_a_url.gif&quot; alt=&quot;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src=&quot;/images/blog/anatomy_of_a_url.gif&quot; alt=&quot;&quot; /&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/blog/Anatomy_of_a_URL_https.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/Anatomy_of_a_URL_https.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The https:// refers to the Hypertext Transfer Protocol (Secure). This is the protocol by which your browser gets the information once it has the IP Address. We aren’t going to go into detail on how this protocol works, but if you are curious here’s a good &lt;a href=&quot;https://www.youtube.com/watch?v=po3zYOe00O4&quot;&gt;video&lt;/a&gt; and if you really want to blow your mind this &lt;a href=&quot;https://www.youtube.com/watch?v=scWj1BMRHUA&quot;&gt;video&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/blog/Anatomy_of_a_URL_Domain_Name.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/Anatomy_of_a_URL_Domain_Name.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The rest is the domain name. This is read from Right -&amp;gt; Left.&lt;/p&gt;
 
@@ -116,37 +114,37 @@
 
 &lt;p&gt;First, let’s take apart the domain name even more.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/blog/Anatomy_of_a_URL_root.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/Anatomy_of_a_URL_root.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;See that little dot at the end of the domain name? In your regular browser that doesn’t show up, but behind the scenes it’s there and it’s important. It’s called the &lt;strong&gt;root&lt;/strong&gt;. Consider it to be the highway of the DNS. When your car (DNS Resolver) begins its journey, it starts by driving along a &lt;strong&gt;Root Name Highway&lt;/strong&gt;. These are the Root Name servers, which have their own IP Addresses (13 of them in the whole world)$^1$.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/blog/Path_Root.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/Path_Root.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As our car is driving along the highway it’s looking for the &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; sign. In reality what happens is our DNS Resolver has asked the Root Name Servers for the IP Address of the &lt;strong&gt;.com Name Server&lt;/strong&gt; which has the information about &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; Top Level Domains. With that information in hand, we drive towards &lt;strong&gt;.com Street&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/blog/Anatomy_of_a_URL_TLD.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/Anatomy_of_a_URL_TLD.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; is an example of a TLD (Top Level Domain). There are gTLDs (generic TLDs) such as &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; which is the earliest and most widely used, dating back to 1985.$^1$ There are also ccTLDs (Country Code TLDs) which are generally reserved for countries and regions. &lt;code class=&quot;highlighter-rouge&quot;&gt;.ca&lt;/code&gt; was actually created at UBC Computer Science by John Demco in 1987.$^2$&lt;/p&gt;
 
 &lt;p&gt;When our car (DNS Resolver) gets to &lt;code class=&quot;highlighter-rouge&quot;&gt;.com&lt;/code&gt; street (or the &lt;strong&gt;.com Name Server&lt;/strong&gt;), we start looking for signs to Google. Our DNS Resolver has asked the &lt;strong&gt;.com Name Server&lt;/strong&gt; for the IP Address of Google. With that information in hand, we drive towards the Google Tower.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/blog/Path_com.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/Path_com.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/blog/Anatomy_of_a_URL_Mid_and_Sub_Level_Domain.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/Anatomy_of_a_URL_Mid_and_Sub_Level_Domain.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Middle-Level Domains are what makes each website unique. Compare &lt;code class=&quot;highlighter-rouge&quot;&gt;google.ca&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;ubc.ca&lt;/code&gt;. Even though the &lt;code class=&quot;highlighter-rouge&quot;&gt;.ca&lt;/code&gt; TLD is the same, the websites loaded are very different, because the Middle-Level Domains are different.&lt;/p&gt;
 
 &lt;p&gt;Our car (DNS Resolver) has finally arrived at its destination, Google Tower (&lt;code class=&quot;highlighter-rouge&quot;&gt;google.com&lt;/code&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/blog/Path_Tower.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/Path_Tower.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But we actually want to get to the Maps Floor, which is the Sub-Level Domain (&lt;code class=&quot;highlighter-rouge&quot;&gt;maps.google&lt;/code&gt;). To do this our DNS Resolver asks the Google Servers where to go (the Doorman at Google Towers), and we are given the final IP Address of &lt;code class=&quot;highlighter-rouge&quot;&gt;maps.google.com&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../images/blog/Path_Tower_Floor.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog/Path_Tower_Floor.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -169,7 +167,6 @@ $^2$ &lt;a href=&quot;https://www.ubc.ca/stories/2015-fall/100-years-of-discover
   &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name&quot;&gt;https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a&quot;&gt;Medium Article by Maneesha Wijesinghe&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
 </description>
         <pubDate>Tue, 19 Sep 2017 10:48:23 -0700</pubDate>
         <link>http://localhost:4000/2017/What-is-a-website-address/</link>
