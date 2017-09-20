@@ -3,7 +3,7 @@ layout: post
 title: Your First Breath
 ---
 
-I wrote the passage below after my first experience in seeing a baby come intho this world. 
+I wrote the passage below after my first experience in seeing a baby come in to this world. 
 
 ----------
 
