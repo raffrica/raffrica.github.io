@@ -14,11 +14,11 @@ Every server has its own unique IP Address (Internet Protocol Address). You can 
 
 For example:
 
-| The ICICS Building at UBC | Google Maps Server$^*$|
+| The ICICS Building at UBC | Google Maps Server|
 | --- | --- |
 | **GPS:** [49.2611454,-123.2489258](https://www.google.ca/maps/search/49.2611454,-123.2489258) | **IP Address:** [216.58.193.78](https://maps.google.com) |
 
-$^*$*note: for a massive website like Google Maps, it's not just one server or the website would quickly crash, instead it's many servers. For the sake of simplicity we'll pretend it's only one server.*
+*note: for a massive website like Google Maps, it's not just one server or the website would quickly crash, instead it's many servers. For the sake of simplicity we'll pretend it's only one server.*
 
 Let's conduct a little experiment:
 
@@ -29,7 +29,7 @@ Let's conduct a little experiment:
 That was hard. It's bulky and inconvenient to remember GPS coordinates for building addresses just like it's challenging to remember IP addresses to access their corresponding servers.
 
 
-If you're a human like me, a website address or URL is a much simpler way to access a particular website. Think about a URL as being the **Street Address** for a website. URL stands for `Uniform Resource Locator` which is fancy speak for a placeholder that locates a unique resource$^1$ (in our case, a website) on the internet.
+If you're a human like me, a website address or URL is a much simpler way to access a particular website. Think about a URL as being the **Street Address** for a website. URL stands for `Uniform Resource Locator` which is fancy speak for a placeholder that locates a unique resource<sup>1</sup> (in our case, a website) on the internet.
 
 | ICICS Building at UBC | Google Maps |
 | --- | --- |
@@ -90,7 +90,7 @@ First, let's take apart the domain name even more.
 
 ![](/images/blog/Anatomy_of_a_URL_root.jpg)
 
-See that little dot at the end of the domain name? In your regular browser that doesn't show up, but behind the scenes it's there and it's important. It's called the **root**. Consider it to be the highway of the DNS. When your car (DNS Resolver) begins its journey, it starts by driving along a **Root Name Highway**. These are the Root Name servers, which have their own IP Addresses (13 of them in the whole world)$^1$.
+See that little dot at the end of the domain name? In your regular browser that doesn't show up, but behind the scenes it's there and it's important. It's called the **root**. Consider it to be the highway of the DNS. When your car (DNS Resolver) begins its journey, it starts by driving along a **Root Name Highway**. These are the Root Name servers, which have their own IP Addresses (13 of them in the whole world)<sup>1</sup>.
 
 ![](/images/blog/Path_Root.jpg)
 
@@ -102,7 +102,7 @@ As our car is driving along the highway it's looking for the `.com` sign. In rea
 
 ![](/images/blog/Anatomy_of_a_URL_TLD.jpg)
 
-`.com` is an example of a TLD (Top Level Domain). There are gTLDs (generic TLDs) such as `.com` which is the earliest and most widely used, dating back to 1985.$^1$ There are also ccTLDs (Country Code TLDs) which are generally reserved for countries and regions. `.ca` was actually created at UBC Computer Science by John Demco in 1987.$^2$
+`.com` is an example of a TLD (Top Level Domain). There are gTLDs (generic TLDs) such as `.com` which is the earliest and most widely used, dating back to 1985<sup>1</sup>. There are also ccTLDs (Country Code TLDs) which are generally reserved for countries and regions. `.ca` was actually created at UBC Computer Science by John Demco in 1987<sup>2</sup>.
 
 When our car (DNS Resolver) gets to `.com` street (or the **.com Name Server**), we start looking for signs to Google. Our DNS Resolver has asked the **.com Name Server** for the IP Address of Google. With that information in hand, we drive towards the Google Tower.
 
@@ -135,8 +135,8 @@ If you want to know what happens next, how our browser is able to show us a webp
 -----------
 ## References  
 
-$^1$ [https://webhostinggeeks.com/guides/domains/](https://webhostinggeeks.com/guides/domains/)  
-$^2$ [https://www.ubc.ca/stories/2015-fall/100-years-of-discovery/1980-1989/#event-tl-iexzrg](https://www.ubc.ca/stories/2015-fall/100-years-of-discovery/1980-1989/#event-tl-iexzrg)  
+<sup>1</sup>[https://webhostinggeeks.com/guides/domains/](https://webhostinggeeks.com/guides/domains/)  
+<sup>2</sup>[https://www.ubc.ca/stories/2015-fall/100-years-of-discovery/1980-1989/#event-tl-iexzrg](https://www.ubc.ca/stories/2015-fall/100-years-of-discovery/1980-1989/#event-tl-iexzrg)  
 
 After Reading and Learning Concepts from:  
 1. [http://www.podcasts.com/techstuff](http://www.podcasts.com/techstuff) ; Podcast: What's my Address  
