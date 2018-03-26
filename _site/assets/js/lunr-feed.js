@@ -1,4 +1,4 @@
-var hostname = "http://danielraff.com/";
+var hostname = "http://danielraff.com";
 var index = lunr(function () {
     this.field('title')
     this.field('content', {boost: 10})
@@ -30,7 +30,7 @@ var index = lunr(function () {
 
 var store = [{
     "title": "What is a Website Address?",
-    "link": "/data%20science/What-is-a-website-address.html",
+    "link": "/data_science/What-is-a-website-address.html",
     "image": null,
     "date": "September 19, 2017",
     "category": null,
