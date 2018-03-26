@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>I'm interested in the use of data analytics and visualization to improve the quality and reach of clinical care. Co-Founder of Hatching Health.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Mar 2018 14:25:39 -0700</pubDate>
-    <lastBuildDate>Mon, 26 Mar 2018 14:25:39 -0700</lastBuildDate>
+    <link>http://danielraff.com//</link>
+    <atom:link href="http://danielraff.com//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 26 Mar 2018 15:30:52 -0700</pubDate>
+    <lastBuildDate>Mon, 26 Mar 2018 15:30:52 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -169,8 +169,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Tue, 19 Sep 2017 10:48:23 -0700</pubDate>
-        <link>/data%20science/What-is-a-website-address.html</link>
-        <guid isPermaLink="true">/data%20science/What-is-a-website-address.html</guid>
+        <link>http://danielraff.com//data%20science/What-is-a-website-address.html</link>
+        <guid isPermaLink="true">http://danielraff.com//data%20science/What-is-a-website-address.html</guid>
         
         <category>internet</category>
         
@@ -198,8 +198,8 @@
 &lt;p&gt;Another thing that I’m very excited for is to have a son of my own, who I can pass this down to. Someone that I can put in that spark of curiosity and explanation that lights a fire in them the same way my dad did so for me.&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Sep 2017 10:48:23 -0700</pubDate>
-        <link>/medicine/Your-First-Breath.html</link>
-        <guid isPermaLink="true">/medicine/Your-First-Breath.html</guid>
+        <link>http://danielraff.com//medicine/Your-First-Breath.html</link>
+        <guid isPermaLink="true">http://danielraff.com//medicine/Your-First-Breath.html</guid>
         
         <category>medicine</category>
         

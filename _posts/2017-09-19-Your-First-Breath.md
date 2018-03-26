@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Your First Breath"
 date:   2017-09-19 17:48:23
 categories: [Medicine]
