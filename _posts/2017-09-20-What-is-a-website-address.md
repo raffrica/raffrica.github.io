@@ -71,14 +71,14 @@ If it's not found anywhere nearby, you and your computer are going to have to go
 To understand this, let's take apart a URL and find out what's inside:  
 
 
-**![](/images/blog/anatomy_of_a_url.gif)**
+**![](/assets/images/blog/anatomy_of_a_url.gif)**
 
 
-![](/images/blog/Anatomy_of_a_URL_https.jpg)
+![](/assets/images/blog/Anatomy_of_a_URL_https.jpg)
 
 The https:// refers to the Hypertext Transfer Protocol (Secure). This is the protocol by which your browser gets the information once it has the IP Address. We aren't going to go into detail on how this protocol works, but if you are curious here's a good [video](https://www.youtube.com/watch?v=po3zYOe00O4) and if you really want to blow your mind this [video](https://www.youtube.com/watch?v=scWj1BMRHUA).
 
-![](/images/blog/Anatomy_of_a_URL_Domain_Name.jpg)
+![](/assets/images/blog/Anatomy_of_a_URL_Domain_Name.jpg)
 
 The rest is the domain name. This is read from Right -> Left.
 
@@ -88,11 +88,11 @@ When your browser is trying to lookup a DNS, it starts with a DNS Resolver, whic
 
 First, let's take apart the domain name even more.
 
-![](/images/blog/Anatomy_of_a_URL_root.jpg)
+![](/assets/images/blog/Anatomy_of_a_URL_root.jpg)
 
 See that little dot at the end of the domain name? In your regular browser that doesn't show up, but behind the scenes it's there and it's important. It's called the **root**. Consider it to be the highway of the DNS. When your car (DNS Resolver) begins its journey, it starts by driving along a **Root Name Highway**. These are the Root Name servers, which have their own IP Addresses (13 of them in the whole world)<sup>1</sup>.
 
-![](/images/blog/Path_Root.jpg)
+![](/assets/images/blog/Path_Root.jpg)
 
 As our car is driving along the highway it's looking for the `.com` sign. In reality what happens is our DNS Resolver has asked the Root Name Servers for the IP Address of the **.com Name Server** which has the information about `.com` Top Level Domains. With that information in hand, we drive towards **.com Street**.
 
@@ -100,27 +100,27 @@ As our car is driving along the highway it's looking for the `.com` sign. In rea
 
 ------------
 
-![](/images/blog/Anatomy_of_a_URL_TLD.jpg)
+![](/assets/images/blog/Anatomy_of_a_URL_TLD.jpg)
 
 `.com` is an example of a TLD (Top Level Domain). There are gTLDs (generic TLDs) such as `.com` which is the earliest and most widely used, dating back to 1985<sup>1</sup>. There are also ccTLDs (Country Code TLDs) which are generally reserved for countries and regions. `.ca` was actually created at UBC Computer Science by John Demco in 1987<sup>2</sup>.
 
 When our car (DNS Resolver) gets to `.com` street (or the **.com Name Server**), we start looking for signs to Google. Our DNS Resolver has asked the **.com Name Server** for the IP Address of Google. With that information in hand, we drive towards the Google Tower.
 
-![](/images/blog/Path_com.jpg)
+![](/assets/images/blog/Path_com.jpg)
 
 ------------
 
-![](/images/blog/Anatomy_of_a_URL_Mid_and_Sub_Level_Domain.jpg)
+![](/assets/images/blog/Anatomy_of_a_URL_Mid_and_Sub_Level_Domain.jpg)
 
 Middle-Level Domains are what makes each website unique. Compare `google.ca` to `ubc.ca`. Even though the `.ca` TLD is the same, the websites loaded are very different, because the Middle-Level Domains are different.
 
 Our car (DNS Resolver) has finally arrived at its destination, Google Tower (`google.com`).
 
-![](/images/blog/Path_Tower.jpg)
+![](/assets/images/blog/Path_Tower.jpg)
 
 But we actually want to get to the Maps Floor, which is the Sub-Level Domain (`maps.google`). To do this our DNS Resolver asks the Google Servers where to go (the Doorman at Google Towers), and we are given the final IP Address of `maps.google.com`.
 
-![](/images/blog/Path_Tower_Floor.jpg)
+![](/assets/images/blog/Path_Tower_Floor.jpg)
 
 ------------
 

@@ -1,43 +1,80 @@
-# Site settings
-title: Daniel Raff's Blog
-description: Medical Student. Data Science Student
-url: 'https://raffrica.github.io/'
-baseurl:
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+# General Settings
+name: Daniel Raff
+job_title: Med Student. Data Scientist.
+email: daniel18raff@gmail.com
+description: I'm interested in the use of data analytics and visualization to improve the quality and reach of clinical care. Co-Founder of Hatching Health.
+#avatar:
+favicon: /favicon.ico
+twitter_handler: raffrica
+analytics_code: UA-116431800-1
+disqus: your_disqus_site
 
-author:
-  name: 'Daniel Raff'
-  email: daniel18raff@gmail.com
-  twitter_username: raffrica
-  facebook_username: daniel.raff
-  github_username:  raffrica
-  linkedin_username:  danielraff
+# Social Accounts
+social_networks:
+-  { name: facebook, url: 'https://www.facebook.com/daniel.raff' }
+-  { name: twitter, url: 'https://twitter.com/raffrica' }
+-  { name: instagram, url: '' }
+-  { name: google-plus, url: '' }
+-  { name: linkedin, url: 'https://www.linkedin.com/in/danielraff/' }
+-  { name: skype, url: '' }
+-  { name: github, url: 'https://github.com/raffrica/' }
+-  { name: codepen, url: '' }
+-  { name: stack-overflow, url: '' }
+-  { name: dribbble, url: '' }
+-  { name: behance, url: '' }
+-  { name: pinterest, url: '' }
+-  { name: tumblr, url: '' }
+-  { name: youtube, url: '' }
+-  { name: vimeo, url: '' }
+-  { name: vine, url: '' }
+-  { name: 500px, url: '' }
+-  { name: flickr, url: '' }
+-  { name: spotify, url: '' }
+-  { name: steam, url: '' }
+-  { name: wordpress, url: '' }
+-  { name: xing, url: '' }
+-  { name: bitcoin, url: '' }
+-  { name: pocket, url: '' }
+-  { name: applemusic, url: '' }
 
+# Modules Settings
+show_categories: 1
+show_tags: 1
+show_email: 1
+show_rss: 1
+show_comments: 1
+show_menu: 1
+fixed_sidebar: 1
+
+# Defaults
 defaults:
   -
     scope:
-      path: ''
-      type: 'posts'
+      path: ""
+      type: "posts"
     values:
-        layout: 'post'
+      comments: "true"
 
-# Build settings
-destination: _site
+# Serving
+url: "http://danielraff.com"
+baseurl: ""
+
+# Includes
+include: ["_pages"]
+
+# Outputting
+permalink: /:categories/:title.html
+category_dir: categories
+
+# Pagination
 paginate: 10
-permalink: /:year/:title/
+paginate_path: "/page:num/"
+
+# Conversion
 markdown: kramdown
-highlighter: rouge
+excerpt_separator: <!--more-->
 
+# Assets Settings
 sass:
-    sass_dir: _sass
-    style: compressed
-
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-gems: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+  sass_dir: assets/partials
+  style: compressed

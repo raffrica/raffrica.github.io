@@ -1,246 +1,453 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <meta name="robots" content="noindex">
-  
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Daniel Raff's Blog</title>
-  <meta name="description" content="Medical Student. Data Science Student">
-  <meta name="author" content="Daniel Raff">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title> Daniel Raff &mdash; Med Student. Data Scientist. </title>
+    <meta property="og:title" content=" Daniel Raff &mdash; Med Student. Data Scientist. " />
+    <meta name="twitter:title" content=" Daniel Raff &mdash; Med Student. Data Scientist. " />
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Daniel Raff's Blog">
-  <meta name="twitter:description" content="Medical Student. Data Science Student">
-  
-  <meta name="twitter:creator" content="raffrica">
-  
-  <meta name="twitter:image" content="/images/favicons/favicon-194x194.png" />
+    <meta name="description" content="I'm interested in the use of data analytics and visualization to improve the quality and reach of clinical care. Co-Founder of Hatching Health.">
+    <meta name="description" property="og:description" content="I'm interested in the use of data analytics and visualization to improve the quality and reach of clinical care. Co-Founder of Hatching Health." />
+    <meta name="twitter:description" content="I'm interested in the use of data analytics and visualization to improve the quality and reach of clinical care. Co-Founder of Hatching Health." />
 
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="Daniel Raff's Blog">
-  <meta property="og:description" content="Medical Student. Data Science Student">
-  <meta property="og:image" content="/images/favicons/favicon-194x194.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta name="twitter:site" content="@raffrica" />
+    
+    <meta property="og:url" content="http://danielraff.com/blog/" />
 
-  <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/images/favicons/favicon-194x194.png" sizes="194x194">
-  <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/images/favicons/manifest.json">
-  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
-  <meta name="msapplication-TileColor" content="#ffc40d">
-  <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  
-  <link rel="stylesheet" href="/css/main.css?1505878665594127000">
-  <link rel="canonical" href="http://localhost:4000/">
-  <link rel="alternate" type="application/rss+xml" title="Daniel Raff's Blog" href="/feed.xml">
+    <meta property="og:image" content="" />
+    <meta name="twitter:image" content="" />
+
+    <meta name="author" content="Daniel Raff" />
+
+    <meta name="copyright" content="Copyright by Daniel Raff. All Rights Reserved." />
+
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v15/mnpfi9pxYH-Go5UiibESIltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 300;
+            src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v15/7m8l7TlFO-S3VkhHuR0at44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v15/vPcynSL0qHq_6dX7lKVByfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 900;
+            src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v15/bmC0pGMXrhphrZJmniIZpY4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+    </style>
+    
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="http://danielraff.com/blog/assets/css/main.css">
+
+    <link rel="canonical" href="http://danielraff.com/blog/">
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://danielraff.com/blog/feed.xml">
 </head>
 
-
-  <body>
-    <span class="mobile btn-mobile-menu">
-  <i class="icon icon-list btn-mobile-menu__icon"></i>
-  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
-</span>
-
-<header class="panel-cover" style="background-image: url(/images/cover.jpg)">
-  <div class="panel-main">
-
-    <div class="panel-main__inner panel-inverted">
-    <div class="panel-main__content">
-        <a href="/" title="link to home of Daniel Raff's Blog">
-          <img src="/images/profile.jpg" class="user-image" alt="My Profile Photo">
-          <h1 class="panel-cover__title panel-title">Daniel Raff's Blog</h1>
-        </a>
-        <hr class="panel-cover__divider">
-        <p class="panel-cover__description">Medical Student. Data Science Student</p>
-        <hr class="panel-cover__divider panel-cover__divider--secondary">
-
-        <div class="navigation-wrapper">
-
-          <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation">
-              <li class="navigation__item"><a href="/#blog" title="link to Daniel Raff's Blog blog" class="blog-button">Blog</a></li>
-            </ul>
-          </nav>
-
-          <nav class="cover-navigation navigation--social">
-            <ul class="navigation">
-
-            
-              <!-- Twitter -->
-              <li class="navigation__item">
-                <a href="http://twitter.com/raffrica" title="@raffrica on Twitter" target="_blank">
-                  <i class="icon icon-social-twitter"></i>
-                  <span class="label">Twitter</span>
-                </a>
-              </li>
-            
-
-            
-              <!-- Facebook -->
-              <li class="navigation__item">
-                <a href="http://fb.me/daniel.raff" title="daniel.raff on Facebook" target="_blank">
-                  <i class="icon icon-social-facebook"></i>
-                  <span class="label">Facebook</span>
-                </a>
-              </li>
-            
-
-            
-              <!-- LinkedIn -->
-              <li class="navigation__item">
-                <a href="https://www.linkedin.com/in/danielraff" title="danielraff on LinkedIn" target="_blank">
-                  <i class="icon icon-social-linkedin"></i>
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-            
-
-            
-              <!-- GitHub -->
-              <li class="navigation__item">
-                <a href="https://www.github.com/raffrica" title="raffrica on GitHub" target="_blank">
-                  <i class="icon icon-social-github"></i>
-                  <span class="label">GitHub</span>
-                </a>
-              </li>
-            
-
-            
-              <!-- Email -->
-              <li class="navigation__item">
-                <a href="mailto:daniel18raff@gmail.com" title="Email daniel18raff@gmail.com" target="_blank">
-                  <i class="icon icon-mail"></i>
-                  <span class="label">Email</span>
-                </a>
-              </li>
-            
-
-            <!-- RSS -->
-            <li class="navigation__item">
-              <a href="/feed.xml" title="Subscribe" target="_blank">
-                <i class="icon icon-rss"></i>
-                <span class="label">RSS</span>
-              </a>
-            </li>
-
-            </ul>
-          </nav>
-
-        </div>
-
-      </div>
-
+    <body>
+        <div class="wrapper clear">
+            <aside class="user-profile fixed" role="complementary">
+    <div class="burger">
+        <input class="trigger hidden" id="toggleBurger" type="checkbox" />
+        <label for="toggleBurger">
+            <span>Navigation</span>
+        </label>
     </div>
 
-    <div class="panel-cover--overlay"></div>
-  </div>
-</header>
+    <div class="compact-header">
+        <a href="http://danielraff.com/blog"><img class="avatar" src="//www.gravatar.com/avatar/5b32c2bf27fb3eabc5bb5cfbfb47aac6?s=140" /></a>
+        <div class="my-info">
+            <strong class="my-name">Daniel Raff</strong>
+            <span class="my-job-title">Med Student. Data Scientist.</span>
+        </div>
+    </div>
 
-
-    <div class="content-wrapper">
-      <div class="content-wrapper__inner">
-        <div class="main-post-list">
-
-  <ol class="post-list">
     
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="/2017/What-is-a-website-address/" title="What is a Website Address?">What is a Website Address?</a></h2>
-        <p class="excerpt">You open up your internet browser, type in a website address (URL) and within seconds, you arrive at your destination. But what goes on under the hood? How does typing in a URL load a webpage, and not just any webpage for that matter, but the unique webpage you requested?
-
-&hellip;</p>
-        <div class="post-list__meta">
-            <time datetime="19 Sep 2017" class="post-list__meta--date date">19 Sep 2017</time>
+        
+        <div class="mainmenu">
+            <a href="http://danielraff.com/blog" class="active">Home</a>
             
-            &#8226; <span class="post-meta__tags">on <a href="/tags/#internet">internet</a> </span>
+                
+            
+                
+            
+                
+            
+                
+                    <a href="http://danielraff.com/blog/hatchinghealth/" >Hatching Health</a>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
             
         </div>
-        <hr class="post-list__divider">
-      </li>
+        
     
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="/2017/Your-First-Breath/" title="Your First Breath">Your First Breath</a></h2>
-        <p class="excerpt">I wrote the passage below after my first experience in seeing a baby come in to this world.
 
-&hellip;</p>
-        <div class="post-list__meta">
-            <time datetime="19 Sep 2017" class="post-list__meta--date date">19 Sep 2017</time>
-            
-            &#8226; <span class="post-meta__tags">on <a href="/tags/#medicine">medicine</a> </span>
-            
+    <p class="about-me">I'm interested in the use of data analytics and visualization to improve the quality and reach of clinical care. Co-Founder of Hatching Health.</p>
+
+    <ul class="socials">
+        <li><a href="https://www.facebook.com/daniel.raff"><svg title="facebook" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://danielraff.com/blog/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></li><li><a href="https://twitter.com/raffrica"><svg title="twitter" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://danielraff.com/blog/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li><li><a href="https://www.linkedin.com/in/danielraff/"><svg title="linkedin" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://danielraff.com/blog/assets/svg/social-icons.svg#linkedin-icon"></use></svg></a></li><li><a href="https://github.com/raffrica/"><svg title="github" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://danielraff.com/blog/assets/svg/social-icons.svg#github-icon"></use></svg></a></li>
+
+        
+            <li><a href="mailto:daniel18raff@gmail.com"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://danielraff.com/blog/assets/svg/social-icons.svg#email-icon"></use></svg></a></li>
+        
+
+        
+         <li><a href="http://danielraff.com/blog/feed.xml"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://danielraff.com/blog/assets/svg/social-icons.svg#rss-icon"></use></svg></a></li>
+        
+    </ul>
+</aside>
+
+            <main class="the-content" role="main">
+                <div class="search" role="search">
+    <div>
+        <div class="show-results-count">0 Results</div>
+        <div class="search-holder clear">
+            <input type="text" id="search-input" placeholder="search for...">
         </div>
-        <hr class="post-list__divider">
-      </li>
-    
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="/2017/Hello-World/" title="First Blog Post">First Blog Post</a></h2>
-        <p class="excerpt">
-layout: post
-title: First Blog Post
-—
-
-&hellip;</p>
-        <div class="post-list__meta">
-            <time datetime="19 Sep 2017" class="post-list__meta--date date">19 Sep 2017</time>
-            
-            &#8226; <span class="post-meta__tags">on <a href="/tags/#jekyll">jekyll</a> </span>
-            
-        </div>
-        <hr class="post-list__divider">
-      </li>
-    
-      <li>
-        <h2 class="post-list__post-title post-title"><a href="/2016/welcome-to-jekyll/" title="Welcome to Jekyll!">Welcome to Jekyll!</a></h2>
-        <p class="excerpt">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve --watch, which launches a web server and auto-regenerates your site when a file is updated.
-
-&hellip;</p>
-        <div class="post-list__meta">
-            <time datetime="8 Jan 2016" class="post-list__meta--date date">8 Jan 2016</time>
-            
-            &#8226; <span class="post-meta__tags">on <a href="/tags/#jekyll">jekyll</a> </span>
-            
-        </div>
-        <hr class="post-list__divider">
-      </li>
-    
-  </ol>
-
-  <hr class="post-list__divider ">
-
-  
-
+    </div>
+    <ul id="results-container" class="results-container"></ul>
 </div>
 
-      </div>
 
-      <footer class="footer">
-  <span class="footer__copyright">&copy; 2017 Daniel Raff. All rights reserved.</span>
-</footer>
+                
+<article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2017-09-19T10:48:23-07:00" itemprop="datePublished">19 Sep, 2017</time></li>
+            
+        </ul>
+        <h2 itemprop="name headline"><a href="http://danielraff.com/blog/data%20science/What-is-a-website-address.html">What is a Website Address?</a></h2>
+    </header>
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1505878665594127000"></script>
+    <div class="post-content">
+        <p>You open up your internet browser, type in a website address (<em>URL</em>) and within seconds, you arrive at your destination. But what goes on under the hood? How does typing in a URL load a webpage, and not just any webpage for that matter, but the unique webpage you requested?</p>
+
+<p>Before we can discuss website addresses, we should ask <em>what is a website?</em> Take a website like <code class="highlighter-rouge">reddit.com</code> When we access Reddit and spend hours looking at <a href="https://www.reddit.com/r/aww/">pictures of cats</a>, what we are actually doing is checking out the content on Reddit’s servers (or the content that it references on other servers).</p>
+
+<p>Every server has its own unique IP Address (Internet Protocol Address). You can think about <strong>GPS Coordinates</strong> for a building address as being the real world equivalent of an IP Address. Every server has a unique IP address just like every building in the world has unique <strong>GPS Coordinates</strong>.</p>
+
+<p>For example:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>The ICICS Building at UBC</th>
+      <th>Google Maps Server</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>GPS:</strong> <a href="https://www.google.ca/maps/search/49.2611454,-123.2489258">49.2611454,-123.2489258</a></td>
+      <td><strong>IP Address:</strong> <a href="https://maps.google.com">216.58.193.78</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>note: for a massive website like Google Maps, it’s not just one server or the website would quickly crash, instead it’s many servers. For the sake of simplicity we’ll pretend it’s only one server.</em></p>
+
+<p>Let’s conduct a little experiment:</p>
+
+<blockquote>
+  <p>Look long and hard at the GPS Coordinates above. Let’s see if you can remember those coordinates. How many of the digits can you remember when you close your eyes?</p>
+
+  <p>Okay. Close your eyes!</p>
+</blockquote>
+
+<p>That was hard. It’s bulky and inconvenient to remember GPS coordinates for building addresses just like it’s challenging to remember IP addresses to access their corresponding servers.</p>
+
+<p>If you’re a human like me, a website address or URL is a much simpler way to access a particular website. Think about a URL as being the <strong>Street Address</strong> for a website. URL stands for <code class="highlighter-rouge">Uniform Resource Locator</code> which is fancy speak for a placeholder that locates a unique resource<sup>1</sup> (in our case, a website) on the internet.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>ICICS Building at UBC</th>
+      <th>Google Maps</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Street Address:</strong> <a href="https://www.google.ca/maps/search/2366+Main+Mall,+Vancouver,+BC+V6T+1Z4/">2366 Main Mall</a></td>
+      <td><strong>URL:</strong> <a href="https://maps.google.com">maps.google.com</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Let’s try this again!</p>
+
+  <p>Look at that Street Address above. Think you can remember it?</p>
+
+  <p>Okay. Close your eyes!</p>
+</blockquote>
+
+<p>That was much easier!</p>
+
+<p>Okay, so far we have IP Addresses that correspond to a server, which in turn has the information for a website. Additionally, we have a URL which is far easier to remember than an IP address.</p>
+
+<hr />
+<hr />
+
+<h3 id="getting-from-a-url-to-an-ip-address">Getting from a URL to an IP Address</h3>
+
+<p>To get from a URL (easy for humans to remember) to an IP Address (necessary for your to load the website from the server), we use the Domain Name System (DNS).</p>
+
+<p>The DNS is essentially a matching system that matches a URL to its corresponding IP Address.</p>
+
+<p>Let’s walk through what happens after you enter that URL:</p>
+
+<p><img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-05/enhanced/webdr06/8/12/anigif_original-31541-1399566411-4.gif" alt="" /></p>
+
+<h5 id="step-1-the-easy-one">Step 1: The Easy One</h5>
+
+<p>Your computer tries to determine if it already has the IP address corresponding to the URL you entered saved somewhere nearby. It does this by first looking in the internet browser’s cache (memory), then in the Operating System’s cache, and finally looks on the internet router’s cache.</p>
+
+<h5 id="step-2-the-big-one">Step 2: The Big One</h5>
+
+<p>If it’s not found anywhere nearby, you and your computer are going to have to go on a journey to figure it out in a process called <em>DNS Lookup</em>.</p>
+
+<p>To understand this, let’s take apart a URL and find out what’s inside:</p>
+
+<p><strong><img src="/assets/images/blog/anatomy_of_a_url.gif" alt="" /></strong></p>
+
+<p><img src="/assets/images/blog/Anatomy_of_a_URL_https.jpg" alt="" /></p>
+
+<p>The https:// refers to the Hypertext Transfer Protocol (Secure). This is the protocol by which your browser gets the information once it has the IP Address. We aren’t going to go into detail on how this protocol works, but if you are curious here’s a good <a href="https://www.youtube.com/watch?v=po3zYOe00O4">video</a> and if you really want to blow your mind this <a href="https://www.youtube.com/watch?v=scWj1BMRHUA">video</a>.</p>
+
+<p><img src="/assets/images/blog/Anatomy_of_a_URL_Domain_Name.jpg" alt="" /></p>
+
+<p>The rest is the domain name. This is read from Right -&gt; Left.</p>
+
+<p>The domain name is the <em>meat</em> of our URL, so we’ll think about it as the street address.</p>
+
+<p>When your browser is trying to lookup a DNS, it starts with a DNS Resolver, which is a server provided by your ISP (internet service provider) for the purposes of finding a URL. In our street address analogy, we can think about the DNS Resolver as being the car that gets us to the address we typed in. Let’s try and get to the address <code class="highlighter-rouge">maps.google.com.</code></p>
+
+<p>First, let’s take apart the domain name even more.</p>
+
+<p><img src="/assets/images/blog/Anatomy_of_a_URL_root.jpg" alt="" /></p>
+
+<p>See that little dot at the end of the domain name? In your regular browser that doesn’t show up, but behind the scenes it’s there and it’s important. It’s called the <strong>root</strong>. Consider it to be the highway of the DNS. When your car (DNS Resolver) begins its journey, it starts by driving along a <strong>Root Name Highway</strong>. These are the Root Name servers, which have their own IP Addresses (13 of them in the whole world)<sup>1</sup>.</p>
+
+<p><img src="/assets/images/blog/Path_Root.jpg" alt="" /></p>
+
+<p>As our car is driving along the highway it’s looking for the <code class="highlighter-rouge">.com</code> sign. In reality what happens is our DNS Resolver has asked the Root Name Servers for the IP Address of the <strong>.com Name Server</strong> which has the information about <code class="highlighter-rouge">.com</code> Top Level Domains. With that information in hand, we drive towards <strong>.com Street</strong>.</p>
+
+<hr />
+
+<p><img src="/assets/images/blog/Anatomy_of_a_URL_TLD.jpg" alt="" /></p>
+
+<p><code class="highlighter-rouge">.com</code> is an example of a TLD (Top Level Domain). There are gTLDs (generic TLDs) such as <code class="highlighter-rouge">.com</code> which is the earliest and most widely used, dating back to 1985<sup>1</sup>. There are also ccTLDs (Country Code TLDs) which are generally reserved for countries and regions. <code class="highlighter-rouge">.ca</code> was actually created at UBC Computer Science by John Demco in 1987<sup>2</sup>.</p>
+
+<p>When our car (DNS Resolver) gets to <code class="highlighter-rouge">.com</code> street (or the <strong>.com Name Server</strong>), we start looking for signs to Google. Our DNS Resolver has asked the <strong>.com Name Server</strong> for the IP Address of Google. With that information in hand, we drive towards the Google Tower.</p>
+
+<p><img src="/assets/images/blog/Path_com.jpg" alt="" /></p>
+
+<hr />
+
+<p><img src="/assets/images/blog/Anatomy_of_a_URL_Mid_and_Sub_Level_Domain.jpg" alt="" /></p>
+
+<p>Middle-Level Domains are what makes each website unique. Compare <code class="highlighter-rouge">google.ca</code> to <code class="highlighter-rouge">ubc.ca</code>. Even though the <code class="highlighter-rouge">.ca</code> TLD is the same, the websites loaded are very different, because the Middle-Level Domains are different.</p>
+
+<p>Our car (DNS Resolver) has finally arrived at its destination, Google Tower (<code class="highlighter-rouge">google.com</code>).</p>
+
+<p><img src="/assets/images/blog/Path_Tower.jpg" alt="" /></p>
+
+<p>But we actually want to get to the Maps Floor, which is the Sub-Level Domain (<code class="highlighter-rouge">maps.google</code>). To do this our DNS Resolver asks the Google Servers where to go (the Doorman at Google Towers), and we are given the final IP Address of <code class="highlighter-rouge">maps.google.com</code>.</p>
+
+<p><img src="/assets/images/blog/Path_Tower_Floor.jpg" alt="" /></p>
+
+<hr />
+
+<p>We’ve covered a lot here. We now understand that a URL is an easy to digest way to refer to an IP Address and that an IP Address specifies a server (which in our case was hosting a website). We’ve learned about the Domain Name System (DNS) and how when given a URL, it can spit out an IP Address for our browsers.</p>
+
+<p>If you want to know what happens next, how our browser is able to show us a webpage once it’s found the right IP Address check out this link: <a href="https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a">Medium Article</a></p>
+
+<hr />
+<hr />
+<h2 id="references">References</h2>
+
+<p><sup>1</sup><a href="https://webhostinggeeks.com/guides/domains/">https://webhostinggeeks.com/guides/domains/</a><br />
+<sup>2</sup><a href="https://www.ubc.ca/stories/2015-fall/100-years-of-discovery/1980-1989/#event-tl-iexzrg">https://www.ubc.ca/stories/2015-fall/100-years-of-discovery/1980-1989/#event-tl-iexzrg</a></p>
+
+<p>After Reading and Learning Concepts from:</p>
+<ol>
+  <li><a href="http://www.podcasts.com/techstuff">http://www.podcasts.com/techstuff</a> ; Podcast: What’s my Address</li>
+  <li><a href="https://www.youtube.com/watch?v=72snZctFFtA">https://www.youtube.com/watch?v=72snZctFFtA</a></li>
+  <li><a href="https://www.youtube.com/watch?v=7_LPdttKXPc">https://www.youtube.com/watch?v=7_LPdttKXPc</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name">https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name</a></li>
+  <li><a href="https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a">Medium Article by Maneesha Wijesinghe</a></li>
+</ol>
 
 
+        
     </div>
-  </body>
+
+    <footer class="post-footer">
+        <div class="share">Share
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=What is a Website Address?&p[summary]=You open up your internet browser, type in a website address (URL) and within seconds, you arrive at your destination. But what goes on u...&p[url]=http://danielraff.com/blog/data%20science/What-is-a-website-address.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://danielraff.com/blog/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=/data%20science/What-is-a-website-address.html&text=You open up your internet browser, type in a website address (URL) and within seconds, you arrive at your destination. But what goes on u...&hashtags=internet," rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://danielraff.com/blog/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+        
+        <div class="tags">
+            <ul>
+                
+                <li><a href="http://danielraff.com/blog/tag/internet">internet</a></li>
+                
+            </ul>
+        </div>
+        
+    </footer>
+</article>
+
+<article class="post" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2017-09-19T10:48:23-07:00" itemprop="datePublished">19 Sep, 2017</time></li>
+            
+        </ul>
+        <h2 itemprop="name headline"><a href="http://danielraff.com/blog/medicine/Your-First-Breath.html">Your First Breath</a></h2>
+    </header>
+
+    <div class="post-content">
+        <p>I wrote the passage below after my first experience in seeing a baby come in to this world.</p>
+
+<hr />
+
+<p>I’ve always felt deprived of my childhood memories. People share stories about what they felt when they were five years old, but I very rarely actually feel these memories. To me it’s more like I’m looking at a photo of the event; in fact, perhaps most of my memories are just memories of memories - memories of a photo or event as described to me by others. This is certainly the way it feels most of the time, but when I do have a memory of my childhood, a <em>real</em> memory, it completely envelopes me. I relive it.</p>
+
+<p>It was in the Cardiology block in my 1st year of medical school. The tutor for our small group session looked around and asked if we knew what happened to the circulation system when that baby takes its first breath. This concept seemed oddly familiar. The gears in my brain slowly turned, and a vivid memory crashed into me. I must have been 5 or 6,  sitting in one of the tall chairs (not quite as tall to me anymore) that accompany the granite counter-top in our kitchen at home. My dad (who dabbles as a cardiologist) was explaining in his characteristically over-detailed manner, cardiac circulation. “See in a baby, the lungs don’t need to breathe because the baby is still inside the tummy” he explained, going on to detail how with the first breath all of a sudden the blood that previously skipped the lungs, now went there. He explained to me how there were these pathways that allowed the blood to skip the lungs and other parts of the body and how these closed when the baby took that breath.</p>
+
+<p>Surprised at this unlocked knowledge, I blurted it out in our small group session and managed to piece together the information: how the PDA (<a href="https://en.wikipedia.org/wiki/Patent_ductus_arteriosus">patent ductus arteriosus</a>) closes, how the circulation changes cause a change in pressure making the left atrium greater than the right atrium and the closure of the foramen ovale (and admittedly didn’t touch on the bypass of the liver through the ductus venosus which also closes).</p>
+
+<p>Pretty excited that I’d remembered something from 10 years ago, I tucked this memory away. A few weeks later, I was shadowing an anesthesiologist on a school night. It was already 12am and I had class the next morning at 8am. The resident turned to me and said that I can go home if I want to, but that if I stick around for another hour I can see a C-section. Well obviously I stayed. The whole thing was amazing.. I’ll fast forward to the moment. I’m at the foot of the bed, watching as the surgeons first pull this tan and wet blob out of her. One surgeon pushes, while the other pulls. The baby is vigorously plucked out. It’s blue, but I didn’t realize quite how blue. It’s a girl. In what seemed like an eternity, there’s no sound, and then SHE BREATHES. She cries. So quickly, she turns from her blue-ish colour to a bright pink. I saw this happen. This amazing miracle that first enticed me when I was a child, then I learned intellectually, I was unfold before my eyes. I was seeing as the resistance in her lungs decreased and blood started to flow in that direction. I was seeing as her right atrial pressure decreased and her foramen ovale was physiologically shut. I was seeing as she started to oxygenate her <em>own</em> blood. MIND BLOWING.</p>
+
+<p>This pattern of being curious about something, then learning about it, then actually seeing it has got to be one of the most significant learning experiences of my life. I am so excited to repeat this throughout medicine.</p>
+
+<p>Another thing that I’m very excited for is to have a son of my own, who I can pass this down to. Someone that I can put in that spark of curiosity and explanation that lights a fire in them the same way my dad did so for me.</p>
+
+
+        
+    </div>
+
+    <footer class="post-footer">
+        <div class="share">Share
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=Your First Breath&p[summary]=I wrote the passage below after my first experience in seeing a baby come in to this world.
+
+
+
+I’ve always felt deprived of my childhood ...&p[url]=http://danielraff.com/blog/medicine/Your-First-Breath.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://danielraff.com/blog/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=/medicine/Your-First-Breath.html&text=I wrote the passage below after my first experience in seeing a baby come in to this world.
+
+
+
+I’ve always felt deprived of my childhood ...&hashtags=medicine," rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://danielraff.com/blog/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+        
+        <div class="tags">
+            <ul>
+                
+                <li><a href="http://danielraff.com/blog/tag/medicine">medicine</a></li>
+                
+            </ul>
+        </div>
+        
+    </footer>
+</article>
+
+
+
+            </main>
+        </div>
+
+        <script src="http://danielraff.com/blog/assets/js/jquery-1.12.2.min.js"></script>
+<script src="http://danielraff.com/blog/assets/js/backtotop.js"></script>
+<script src="http://danielraff.com/blog/assets/js/lunr.min.js"></script>
+<script src="http://danielraff.com/blog/assets/js/lunr-feed.js"></script>
+<script src="http://danielraff.com/blog/assets/js/jquery.fitvids.js"></script>
+<script src="http://danielraff.com/blog/assets/js/svg4everybody.min.js"></script>
+<script src="http://danielraff.com/blog/assets/js/scripts.js"></script>
+
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-116431800-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    </body>
 </html>
