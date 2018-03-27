@@ -17,7 +17,7 @@
     {% if site.show_menu == 1 %}
         {% if site.pages %}
         <div class="mainmenu">
-            <a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}" {% if "/about" == page.url %}class="active"{% endif %}>About Me</a>
+            <a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}" {% if page.url == "/about" %}class="active"{% endif %}>About Me</a>
             {% for p in site.pages %}
                 {% if p.layout == 'page' and p.title != "About Me" %}
                     <a href="{{ p.url | prepend: site.baseurl | prepend: site.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a>
