@@ -22,7 +22,7 @@ permalink: "/reading/"
 * [Moonwalking with Einstein *by Joshua Foer*](https://www.goodreads.com/book/show/6346975-moonwalking-with-einstein){:target="_blank"}
 * [Being Mortal *by Atul Gawande*](http://atulgawande.com/book/being-mortal/){:target="_blank"}
 * [The Checklist Manifesto *by Atul Gawande*](http://atulgawande.com/book/the-checklist-manifesto/){:target="_blank"}  
-* [When Breath Becomes Air](https://www.goodreads.com/book/show/25899336-when-breath-becomes-air){:target="_blank"}
+* [When Breath Becomes Air *by Paul Kalanithi*](https://www.goodreads.com/book/show/25899336-when-breath-becomes-air){:target="_blank"}
 
 ### Podcasts  
 
@@ -32,3 +32,4 @@ permalink: "/reading/"
 * [a16z](https://a16z.com/podcasts/){:target="_blank"}
 * [Tech Tonics](http://connectedsocialmedia.com/category/tech-tonics/){:target="_blank"}
 * [Waking Up with Sam Harris](https://samharris.org/podcast/){:target="_blank"}
+
