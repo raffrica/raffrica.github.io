@@ -18,10 +18,12 @@
         {% if site.pages %}
         <div class="mainmenu">
             {% for p in site.pages %}
-                {% if p.layout == 'page_special' %}
+                {% if p.title == "About Me" %}
                     <a href="{{ p.url | prepend: site.baseurl | prepend: site.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a>
                 {% endif %}
-                {% if p.layout == 'page' %}
+            {% endfor %}
+            {% for p in site.pages %}
+                {% if p.layout == 'page' and p.title != "About Me" %}
                     <a href="{{ p.url | prepend: site.baseurl | prepend: site.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a>
                 {% endif %}
             {% endfor %}
