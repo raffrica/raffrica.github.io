@@ -6,7 +6,7 @@ permalink: "/about/"
 
 I'm in my final year of medical school at the University of British Columbia.  
 
-I'm completing a [Master's of Data Science](https://masterdatascience.science.ubc.ca/).  
+I'm in the proccess of completing a [Master's of Data Science](https://masterdatascience.science.ubc.ca/).  
 
 <br>
 
@@ -20,7 +20,7 @@ I've gone on some adventures:
 
 I've made some things:
 
-* Co-Founded and on the board for [Hatching Health](http://www.hatchinghealth.com/)
+* Co-Founder and board member of [Hatching Health](http://www.hatchinghealth.com/)
 * [Visualization of Canadian Medical Health Survey Data](https://raffrica.shinyapps.io/cad_mental_health_viz/)
 
 <br>
