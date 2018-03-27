@@ -25,4 +25,4 @@ Pretty excited that I’d remembered something from 10 years ago, I tucked this 
 
 This pattern of being curious about something, then learning about it, then actually seeing it has got to be one of the most significant learning experiences of my life. I am so excited to repeat this throughout medicine.
 
-Another thing that I’m very excited for is to have a son of my own, who I can pass this down to. Someone that I can put in that spark of curiosity and explanation that lights a fire in them the same way my dad did so for me.
+Another thing that I’m very excited for is to have a daughter of my own, who I can pass this down to. Someone that I can put in that spark of curiosity and explanation that lights a fire in them the same way my dad did so for me.

@@ -218,6 +218,8 @@
 
 <p><em>note: for a massive website like Google Maps, it’s not just one server or the website would quickly crash, instead it’s many servers. For the sake of simplicity we’ll pretend it’s only one server.</em></p>
 
+<!--more-->
+
 <p>Let’s conduct a little experiment:</p>
 
 <blockquote>
@@ -227,8 +229,6 @@
 </blockquote>
 
 <p>That was hard. It’s bulky and inconvenient to remember GPS coordinates for building addresses just like it’s challenging to remember IP addresses to access their corresponding servers.</p>
-
-<!--more-->
 
 <p>If you’re a human like me, a website address or URL is a much simpler way to access a particular website. Think about a URL as being the <strong>Street Address</strong> for a website. URL stands for <code class="highlighter-rouge">Uniform Resource Locator</code> which is fancy speak for a placeholder that locates a unique resource<sup>1</sup> (in our case, a website) on the internet.</p>
 
@@ -388,7 +388,7 @@ You open up your internet browser, type in a website address (URL) and within se
         (function() {
             var d = document, s = d.createElement('script');
 
-            s.src = '//your_disqus_site.disqus.com/embed.js';
+            s.src = '//danielraff-com.disqus.com/embed.js';
 
             s.setAttribute('data-timestamp', +new Date());
             (d.head || d.body).appendChild(s);

@@ -5,8 +5,8 @@
     <description>I'm interested in the use of data analytics and visualization to improve the quality and reach of clinical care. Co-Founder of Hatching Health.</description>
     <link>http://danielraff.com/</link>
     <atom:link href="http://danielraff.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Mar 2018 17:43:43 -0700</pubDate>
-    <lastBuildDate>Mon, 26 Mar 2018 17:43:43 -0700</lastBuildDate>
+    <pubDate>Mon, 26 Mar 2018 18:10:55 -0700</pubDate>
+    <lastBuildDate>Mon, 26 Mar 2018 18:10:55 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -38,6 +38,8 @@
 
 &lt;p&gt;&lt;em&gt;note: for a massive website like Google Maps, it’s not just one server or the website would quickly crash, instead it’s many servers. For the sake of simplicity we’ll pretend it’s only one server.&lt;/em&gt;&lt;/p&gt;
 
+&lt;!--more--&gt;
+
 &lt;p&gt;Let’s conduct a little experiment:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -47,8 +49,6 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;That was hard. It’s bulky and inconvenient to remember GPS coordinates for building addresses just like it’s challenging to remember IP addresses to access their corresponding servers.&lt;/p&gt;
-
-&lt;!--more--&gt;
 
 &lt;p&gt;If you’re a human like me, a website address or URL is a much simpler way to access a particular website. Think about a URL as being the &lt;strong&gt;Street Address&lt;/strong&gt; for a website. URL stands for &lt;code class=&quot;highlighter-rouge&quot;&gt;Uniform Resource Locator&lt;/code&gt; which is fancy speak for a placeholder that locates a unique resource&lt;sup&gt;1&lt;/sup&gt; (in our case, a website) on the internet.&lt;/p&gt;
 
@@ -187,7 +187,7 @@
         <title>Your First Breath</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/images/blog/first_breath.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I wrote the passage below after my first experience in seeing a baby come in to this world.&lt;/p&gt;
+&lt;p&gt;I wrote the passage below following my first clinical experience with child birth.&lt;/p&gt;
 
 &lt;hr /&gt;
 
