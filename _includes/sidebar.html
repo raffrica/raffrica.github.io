@@ -17,10 +17,10 @@
     {% if site.show_menu == 1 %}
         {% if site.pages %}
         <div class="mainmenu">
-            {% if p.layout == 'about' %}
-                <a href="{{ p.url | prepend: site.baseurl | prepend: site.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a>
-            {% endif %}
             {% for p in site.pages %}
+                {% if p.layout == 'page_special' %}
+                    <a href="{{ p.url | prepend: site.baseurl | prepend: site.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a>
+                {% endif %}
                 {% if p.layout == 'page' %}
                     <a href="{{ p.url | prepend: site.baseurl | prepend: site.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a>
                 {% endif %}
