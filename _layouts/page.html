@@ -17,8 +17,8 @@ layout: default
     <div id="disqus_thread"></div>
     <script>
         var disqus_config = function () {
-            this.page.url = '{{ page.url | prepend: site.baseurl | prepend: site.url }}';
-            this.page.identifier = '{{ page.date | date: "%-m/%-d/%Y" }}';
+            this.page.url = '{{ "/reading" | prepend: site.baseurl | prepend: site.url }}';
+            this.page.identifier = '{{ '2018-03-27 17:48:23' | date: "%-m/%-d/%Y" }}';
         };
         (function() {
             var d = document, s = d.createElement('script');
