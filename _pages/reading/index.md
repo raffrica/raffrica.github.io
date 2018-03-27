@@ -33,6 +33,3 @@ permalink: "/reading/"
 * [Tech Tonics](http://connectedsocialmedia.com/category/tech-tonics/){:target="_blank"}
 * [Waking Up with Sam Harris](https://samharris.org/podcast/){:target="_blank"}
 
-
-
-#### If you have any recommendations, comment below!
