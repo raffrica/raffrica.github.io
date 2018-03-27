@@ -6,7 +6,7 @@ permalink: "/about/"
 
 I'm in my final year of medical school at the University of British Columbia.  
 
-I'm in the proccess of completing a [Master's of Data Science](https://masterdatascience.science.ubc.ca/).  
+I'm in the process of completing a [Master's of Data Science](https://masterdatascience.science.ubc.ca/).  
 
 <br>
 
