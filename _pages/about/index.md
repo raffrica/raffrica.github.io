@@ -4,9 +4,8 @@ title:  "About Me"
 permalink: "/about/"
 ---
 
-I'm in my final year of [medical school](http://mdprogram.med.ubc.ca/2016/10/11/md-student-daniel-raff-receives-the-2016-canadian-medical-hall-of-fame-award/) at the University of British Columbia. 
-
-I'm in the process of completing a [Master's of Data Science](https://masterdatascience.science.ubc.ca/).  
+I'm in my final year of [medical school](http://mdprogram.med.ubc.ca/2016/10/11/md-student-daniel-raff-receives-the-2016-canadian-medical-hall-of-fame-award/) and in the process of completing a [Master's of Data Science](https://masterdatascience.science.ubc.ca/) at the University of British Columbia. 
+ 
 
 <br>
 
