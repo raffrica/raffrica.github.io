@@ -22,6 +22,8 @@ For example:
 
 *note: for a massive website like Google Maps, it's not just one server or the website would quickly crash, instead it's many servers. For the sake of simplicity we'll pretend it's only one server.*
 
+<!--more-->
+
 Let's conduct a little experiment:
 
 > Look long and hard at the GPS Coordinates above. Let's see if you can remember those coordinates. How many of the digits can you remember when you close your eyes?
@@ -30,7 +32,6 @@ Let's conduct a little experiment:
 
 That was hard. It's bulky and inconvenient to remember GPS coordinates for building addresses just like it's challenging to remember IP addresses to access their corresponding servers.
 
-<!--more-->
 
 If you're a human like me, a website address or URL is a much simpler way to access a particular website. Think about a URL as being the **Street Address** for a website. URL stands for `Uniform Resource Locator` which is fancy speak for a placeholder that locates a unique resource<sup>1</sup> (in our case, a website) on the internet.
 
