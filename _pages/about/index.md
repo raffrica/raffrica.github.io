@@ -10,8 +10,8 @@ I'm completing a [Master's of Data Science](https://masterdatascience.science.ub
 
 I've gone on some adventures: 
 
-* Completed the [Mongol Rally](http://www.theadventurists.com/mongol-rally-where-and-when/) - a charity drive from London, England to Ulaanbaatar, Mongolia  
-* Worked on water infrastructure and health education for a remote school in the Indian Himalayan region ([Spiti Valley](https://en.wikipedia.org/wiki/Spiti_Valley)  
+* The [Mongol Rally](http://www.theadventurists.com/mongol-rally-where-and-when/) - a charity drive from London, England to Ulaanbaatar, Mongolia  
+* Worked on water infrastructure and health education for a remote school in the Indian Himalayan region ([Spiti Valley](https://en.wikipedia.org/wiki/Spiti_Valley))  
 
 
 
