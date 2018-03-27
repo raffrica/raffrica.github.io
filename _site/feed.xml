@@ -5,8 +5,8 @@
     <description>I'm interested in the use of data analytics and visualization to improve the quality and reach of clinical care. Co-Founder of Hatching Health.</description>
     <link>http://danielraff.com/</link>
     <atom:link href="http://danielraff.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Mar 2018 17:06:05 -0700</pubDate>
-    <lastBuildDate>Mon, 26 Mar 2018 17:06:05 -0700</lastBuildDate>
+    <pubDate>Mon, 26 Mar 2018 17:14:18 -0700</pubDate>
+    <lastBuildDate>Mon, 26 Mar 2018 17:14:18 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -45,6 +45,8 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;That was hard. It’s bulky and inconvenient to remember GPS coordinates for building addresses just like it’s challenging to remember IP addresses to access their corresponding servers.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;If you’re a human like me, a website address or URL is a much simpler way to access a particular website. Think about a URL as being the &lt;strong&gt;Street Address&lt;/strong&gt; for a website. URL stands for &lt;code class=&quot;highlighter-rouge&quot;&gt;Uniform Resource Locator&lt;/code&gt; which is fancy speak for a placeholder that locates a unique resource&lt;sup&gt;1&lt;/sup&gt; (in our case, a website) on the internet.&lt;/p&gt;
 
