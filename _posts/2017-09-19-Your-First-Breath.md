@@ -6,7 +6,9 @@ categories: [medicine]
 tags: [medicine]
 ---
 
-I wrote the passage below after my first experience in seeing a baby come in to this world.
+![](/assets/images/blog/first_breath.jpg)
+
+I wrote the passage below following my first clinical experience with child birth.
 
 ----------
 

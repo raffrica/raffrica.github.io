@@ -6,6 +6,7 @@ categories: [data_science]
 tags: [internet]
 ---
 
+![](/assets/images/blog/website_address.png)
 
 You open up your internet browser, type in a website address (*URL*) and within seconds, you arrive at your destination. But what goes on under the hood? How does typing in a URL load a webpage, and not just any webpage for that matter, but the unique webpage you requested?
 

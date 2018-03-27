@@ -5,13 +5,15 @@
     <description>I'm interested in the use of data analytics and visualization to improve the quality and reach of clinical care. Co-Founder of Hatching Health.</description>
     <link>http://danielraff.com/</link>
     <atom:link href="http://danielraff.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Mar 2018 17:14:18 -0700</pubDate>
-    <lastBuildDate>Mon, 26 Mar 2018 17:14:18 -0700</lastBuildDate>
+    <pubDate>Mon, 26 Mar 2018 17:43:43 -0700</pubDate>
+    <lastBuildDate>Mon, 26 Mar 2018 17:43:43 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
         <title>What is a Website Address?</title>
-        <description>&lt;p&gt;You open up your internet browser, type in a website address (&lt;em&gt;URL&lt;/em&gt;) and within seconds, you arrive at your destination. But what goes on under the hood? How does typing in a URL load a webpage, and not just any webpage for that matter, but the unique webpage you requested?&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/blog/website_address.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You open up your internet browser, type in a website address (&lt;em&gt;URL&lt;/em&gt;) and within seconds, you arrive at your destination. But what goes on under the hood? How does typing in a URL load a webpage, and not just any webpage for that matter, but the unique webpage you requested?&lt;/p&gt;
 
 &lt;p&gt;Before we can discuss website addresses, we should ask &lt;em&gt;what is a website?&lt;/em&gt; Take a website like &lt;code class=&quot;highlighter-rouge&quot;&gt;reddit.com&lt;/code&gt; When we access Reddit and spend hours looking at &lt;a href=&quot;https://www.reddit.com/r/aww/&quot;&gt;pictures of cats&lt;/a&gt;, what we are actually doing is checking out the content on Reddit’s servers (or the content that it references on other servers).&lt;/p&gt;
 
@@ -183,13 +185,17 @@
     
       <item>
         <title>Your First Breath</title>
-        <description>&lt;p&gt;I wrote the passage below after my first experience in seeing a baby come in to this world.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/blog/first_breath.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I wrote the passage below after my first experience in seeing a baby come in to this world.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;I’ve always felt deprived of my childhood memories. People share stories about what they felt when they were five years old, but I very rarely actually feel these memories. To me it’s more like I’m looking at a photo of the event; in fact, perhaps most of my memories are just memories of memories - memories of a photo or event as described to me by others. This is certainly the way it feels most of the time, but when I do have a memory of my childhood, a &lt;em&gt;real&lt;/em&gt; memory, it completely envelopes me. I relive it.&lt;/p&gt;
 
 &lt;p&gt;It was in the Cardiology block in my 1st year of medical school. The tutor for our small group session looked around and asked if we knew what happened to the circulation system when that baby takes its first breath. This concept seemed oddly familiar. The gears in my brain slowly turned, and a vivid memory crashed into me. I must have been 5 or 6,  sitting in one of the tall chairs (not quite as tall to me anymore) that accompany the granite counter-top in our kitchen at home. My dad (who dabbles as a cardiologist) was explaining in his characteristically over-detailed manner, cardiac circulation. “See in a baby, the lungs don’t need to breathe because the baby is still inside the tummy” he explained, going on to detail how with the first breath all of a sudden the blood that previously skipped the lungs, now went there. He explained to me how there were these pathways that allowed the blood to skip the lungs and other parts of the body and how these closed when the baby took that breath.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;Surprised at this unlocked knowledge, I blurted it out in our small group session and managed to piece together the information: how the PDA (&lt;a href=&quot;https://en.wikipedia.org/wiki/Patent_ductus_arteriosus&quot;&gt;patent ductus arteriosus&lt;/a&gt;) closes, how the circulation changes cause a change in pressure making the left atrium greater than the right atrium and the closure of the foramen ovale (and admittedly didn’t touch on the bypass of the liver through the ductus venosus which also closes).&lt;/p&gt;
 
