@@ -1,4 +1,4 @@
-var hostname = "https://danielraff.com";
+var hostname = "https://danielraff.com/about";
 var index = lunr(function () {
     this.field('title')
     this.field('content', {boost: 10})

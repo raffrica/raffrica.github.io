@@ -57,7 +57,7 @@ defaults:
 
 # Serving
 url: "https://danielraff.com"
-baseurl: "/about"
+baseurl: ""
 
 # Includes
 include: ["_pages"]
