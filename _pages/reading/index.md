@@ -8,14 +8,14 @@ permalink: "/reading/"
 
 ### Books *(and long articles)*:  
 
-#### 2018   
+##### 2018   
 
 * [The Patient Will See you Now *by Eric Topol*](https://www.goodreads.com/book/show/22825546-the-patient-will-see-you-now){:target="_blank"}
 * [The Master Algorithm *by Pedro Domingos*](https://www.goodreads.com/book/show/24612233-the-master-algorithm){:target="_blank"}
 * [Weapons of Math Destruction *by Cathy O'Neil*](https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction){:target="_blank"}
 * [Principles *by Ray Dalio*](https://www.goodreads.com/book/show/12935037-principles){:target="_blank"}
 
-#### 2017  
+##### 2017  
 
 * [Thinking Fast and Slow *by Daniel Kahneman*](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow){:target="_blank"}
 * [WaitButWhy's Neuralink Article *by Tim Urban*](https://waitbutwhy.com/2017/04/neuralink.html){:target="_blank"}
