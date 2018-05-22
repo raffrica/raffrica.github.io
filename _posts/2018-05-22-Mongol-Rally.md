@@ -9,7 +9,7 @@ tags: [travel]
 
 In the summer of 2015, Mike, Kevin and I went on an epic adventure. 
 
-![](/assets/images/blog/mongol/overview_2.jpg)
+![](/assets/images/blog/mongol/overview_4.jpg)
 
 Across 15,000km, 17 countries, and 35 days, we made our way from London, England to Ulaanbaatar, Mongolia, raising over $3000 for [charity](http://globalhealth.med.ubc.ca/service/student-groups/global-health-initiative/).  
 
@@ -34,6 +34,7 @@ The Blog:
 * Kazakhstan and Russia
 * Mongolia: Part 1
 
+<!--more-->
 
 ## The First Post
 
