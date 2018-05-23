@@ -24,16 +24,16 @@ Photos:
 
 The Blog:
 
-* The First Post
-* Pre-Mongol and Day 1
-* Eastern Europe: Bathhouses, Batman Cave, (B)Dracula, and Borders
-* Turkey
-* Georgia and Azerbaijan
-* Baku Ferry, Turkmenistan
-* Uzbekistan and Kyrgyzstan
-* Kazakhstan and Russia
-* Mongolia: Part 1
-* Mongolia: Part 2
+* [The First Post](https://danielraff.com/travel/Mongol-Rally.html#the-first-post)
+* [Pre-Mongol and Day 1](https://danielraff.com/travel/Mongol-Rally.html#pre-mongol-and-day-1)
+* [Eastern Europe: Bathhouses, Batman Cave, (B)Dracula, and Borders](https://danielraff.com/travel/Mongol-Rally.html#eastern-europe-bathhouses-batman-cave-bdracula-and-borders)
+* [Turkey](https://danielraff.com/travel/Mongol-Rally.html#turkey)
+* [Georgia and Azerbaijan](https://danielraff.com/travel/Mongol-Rally.html#georgia-and-azerbaijan)
+* [Baku Ferry, Turkmenistan](https://danielraff.com/travel/Mongol-Rally.html#baku-ferry-turkmenistan)
+* [Uzbekistan and Kyrgyzstan](https://danielraff.com/travel/Mongol-Rally.html#uzbekistan-and-kyrgyzstan)
+* [Kazakhstan and Russia](Kazakhstan and Russia)
+* [Mongolia: Part 1](https://danielraff.com/travel/Mongol-Rally.html#mongolia-part-1)
+* [Mongolia: Part 2](https://danielraff.com/travel/Mongol-Rally.html#mongolia-part-2)
 
 <!--more-->
 
@@ -97,7 +97,7 @@ Welcome to our very first blog post and to the adventure of a lifetime. We since
 Daniel, Kevin, and Michael
 
 
-## Pre-Mongol and Day 1
+# Pre-Mongol and Day 1
 
 ### PRE-MONGOL/LONDON
 ![](/assets/images/blog/mongol/pre_1)  
@@ -153,7 +153,7 @@ Our first destination once getting off the ferry was Brussels. If any of you fee
 ![](/assets/images/blog/mongol/pre_8)  
 *John Lee. The Legend.*  
 
-## Eastern Europe: Bathhouses, Batman Cave, (B)Dracula, and Borders
+# Eastern Europe: Bathhouses, Batman Cave, (B)Dracula, and Borders
 
 ### July 20 and 21st - Prague
 
@@ -209,7 +209,7 @@ Our only pit stop in Bulgaria was to go to the beach – Sunny Beach, a world-fa
 About 3 km from the Turkish border we drove into a construction site and treated Michelle (the name our car chose for herself) to a photoshoot. Just as the photoshoot was heating up, an angry looking Bulgarian man came up to us and accosted us with what we can only assume to be a slough of swear-words.
 The Turkish border was one of our most peculiar experiences so far.  Picture this: you park in front of a station and in the entrance, there is a strobe light reminiscent of a night club.  All around you are stray dogs that are seriously underfed.  You walk into the station, and there are absolutely no markings or signs on where to go or who to talk to.  And the border staff are certainly not jumping out of their seats to help you.  You go up to the first window and show your passports.  They plug some numbers into their computer and then we are redirected to another window.  This time, we are missing our car insurance, which is located outside the building.  We collect our insurance (equivalent of a Green Card in EU), and then go back to the same guy inside to finalize our documents.  But you’re not done.  Then, you are redirected outside to a border patrol officer sitting by himself in a dark corner, smoking a cigarette, and on his phone.  He doesn’t cue you on what to do so you go up to him and ask him if you’re in the right place or if he even works there.  His first question is: “who is the chauffer?” – also known as who is the registered driver.  Vetty was.  Vetty gets a stamp in his passport and we are finally on our way.
 
-## Turkey  
+# Turkey  
 
 July 24
 
@@ -286,7 +286,7 @@ We quickly became the whitest people to ever dip in the Black Sea later on durin
 Unfortunately, once we got into the busy Trabzon city centre, we lost the other Vancouver team.  We were devastated.  Like a Canadian flag torn in half, or burned part way through, we felt incomplete, not whole, like our better half had left us.  Nevertheless, we had to move on.  Because if you don’t move forward in life, you get left behind.
 Stay tuned for our next post in Georgia and Azerbaijan with such wondrous features as: Kevin’s First Bribe, Mishaps at the Border, Our First Flat Tire, and last but not least, BLOODY DIARRHEA!
 
-## Georgia and Azerbaijan
+# Georgia and Azerbaijan
 
 ### July 28th - Georgia  
 
@@ -356,7 +356,7 @@ The past several days we have been stuck in Baku.  We can barely begin to explai
 
 Ishmael is a demi-god.  The ferries in Baku do not leave without his permission, and the Turkmenistan LOI would not be written the way it was without his wizardry of the written word.  Using as few facial muscles as possibe to speak, and displaying as much care as an inanimate object, Ishmael tells us as little as possible to keep us in the lurch, but as much for us to know that he is the vessel for the fountain of knowledge.  When he so decides, the ferries will dock, and we will be able to drive our cars onto them, but if he so much feels a single inkling of dissent, the ferries will cease to exist, and perhaps we will too.  With a flick of the wrist, he makes the sun shine and the wind blow.  The team earnestly awaits his word.
 
-## Baku Ferry, Turkmenistan
+# Baku Ferry, Turkmenistan
 
 ### Queuing for the Ferry
 
@@ -451,7 +451,7 @@ The lonely planet was not lying about Turkmenistan’s best attribute being its 
 Right near the border to Uzbekistan we dipped in a little grocery store shack. We spent the last of our money on water and the gang desperately wanted some chips but we didn’t have the money for it. A lot of smiles were exchanged with the most beautiful woman we’d seen in Turkmenistan as Dan jokingly attempted to count in Turkmeni. She was so pretty that Dan went back inside to give her our melon (which probably only had a day left in it anyways). She beamed a radiant smile at Dan that he’ll never forget and muttered ‘Spasiba’, thank you in Russian. Then she handed him the bag of chips that we didn’t have the money for.
 We have ‘many’ loves for the Turkmeni people.
 
-## Uzbekistan and Kyrgyzstan
+# Uzbekistan and Kyrgyzstan
 
 ### Uzbekistan
 
@@ -526,7 +526,7 @@ One thing you have to get used to on the Mongol Rally is that whatever you sched
 ![](/assets/images/blog/mongol/uzbek_15)  
 *Bonus picture of Michelle the mare with a choice, chedda as, backdrop.*  
 
-## Kazakhstan and Russia
+# Kazakhstan and Russia
 
 ![](/assets/images/blog/mongol/kazak_1)  
 *Team Formulary 1 and Team Anserimates in Russia, near the Mongolian border.*  
@@ -576,7 +576,7 @@ Less than a day was spent in Russia getting to the Mongolian border crossing.  T
 
 
 
-## Mongolia: Part 1  
+# Mongolia: Part 1  
 
 **WE MADE IT!** 17 countries and 8000 miles later, we finally made it to what this rally is all about: desolate, beautiful, vast Mongolia.  Everything up until this point has merely been a lead up to this exquisite landscape of rolling hills, Gers, herds of goats, sheep, yaks, cows and horses, and impossibly large areas of nothingness.  
 
@@ -680,21 +680,21 @@ In the first few days of Mongolia, we stayed in one of the nicest camping sites 
 ![](/assets/images/blog/mongol/mong_22)  
 *Our good old friends, the Team Anserimates, going and testing out the route for us (and of course getting stuck doing so).*  
 
-## Mongolia: Part 2  
+# Mongolia: Part 2  
 
 We never did write a part 2 or an ending to this saga, so you're just going to have to settle for some photos of us at the finish line.  
 
-![](/assets/images/blog/mongol/finish_1)  
+![](/assets/images/blog/mongol/finish_1.jpg)  
 
-![](/assets/images/blog/mongol/finish_2)  
+![](/assets/images/blog/mongol/finish_2.jpg)  
 
-![](/assets/images/blog/mongol/finish_3)  
+![](/assets/images/blog/mongol/finish_3.jpg)  
 
-![](/assets/images/blog/mongol/finish_4)  
+![](/assets/images/blog/mongol/finish_4.jpg)  
 *Kevin 'The Driver' Nickel*  
 
-![](/assets/images/blog/mongol/finish_5)  
+![](/assets/images/blog/mongol/finish_5.jpg)  
 *Daniel 'The Navigator' Raff*  
 
-![](/assets/images/blog/mongol/finish_6)  
+![](/assets/images/blog/mongol/finish_6.jpg)  
 *Mike 'The Muscle' Vettey*  
