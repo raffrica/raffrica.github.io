@@ -188,14 +188,14 @@ Today we went to Salina Turda, an abandoned salt mine turned into an amusement p
 
 It is rumoured that Salina Turda was used to film the bat cave in Batman.  Even if we hear otherwise, we will convince ourselves that this is the case.  Bruce was happy to have us stay in Wayne manor, and we really used the facilities to their utmost, including the strictly enforced under 10 years old playground.  
 
-![](/assets/images/blog/mongol/europe_5)
+![](/assets/images/blog/mongol/europe_6)
 *Enjoying ALL that Salina Turda has to offer*  
 
 After a few hours at Salina Turda, we had to drive several hours to get to our next destination in Romania, Bran Castle.  This is the world famous Dracula castle and we spent practically the whole night driving to get there.  We drove through some of the creepiest Romanian villages you could imagine; we swore for kilometer stretches that not a single person was around.  This creepy setting, along with a pothole infested road, if you can even call it a road, made for an aptly spooky car ride to get to the greatest fabled blood sucker of all time, the Count himself.
 We ended up camping at the Vampire camping site near the castle and visited the castle in the morning. Equipping ourselves with stakes and silver crosses, we held hands and prayed to live to see the morning light. Bonus: since we arrived after midnight and left before 7am, the camping office never opened and we got a free sleep.
 
 
-![](/assets/images/blog/mongol/europe_6)  
+![](/assets/images/blog/mongol/europe_7)  
 *Donkey Kong (aka Vetty) placating the local wildlife at the Vampire campsite.*  
 
 ### July 23rd - Bulgaria
