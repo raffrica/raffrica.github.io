@@ -12,7 +12,7 @@ I'm in my final year of [medical school](http://mdprogram.med.ubc.ca/2016/10/11/
 
 I've gone on some adventures:
 
-* The [Mongol Rally](http://www.theadventurists.com/mongol-rally-where-and-when/) - a charity drive from London, England to Ulaanbaatar, Mongolia  
+* The [Mongol Rally](https://danielraff.com/travel/Mongol-Rally.html) - a charity drive from London, England to Ulaanbaatar, Mongolia  
 * Worked on water infrastructure and health education for a remote school in the Indian Himalayan region ([Spiti Valley](https://en.wikipedia.org/wiki/Spiti_Valley))  
 
 <br>
