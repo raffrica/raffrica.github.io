@@ -31,7 +31,7 @@ The Blog:
 * [Georgia and Azerbaijan](https://danielraff.com/travel/Mongol-Rally.html#georgia-and-azerbaijan)
 * [Baku Ferry, Turkmenistan](https://danielraff.com/travel/Mongol-Rally.html#baku-ferry-turkmenistan)
 * [Uzbekistan and Kyrgyzstan](https://danielraff.com/travel/Mongol-Rally.html#uzbekistan-and-kyrgyzstan)
-* [Kazakhstan and Russia](Kazakhstan and Russia)
+* [Kazakhstan and Russia](https://danielraff.com/travel/Mongol-Rally.html#kazakhstan-and-russia)
 * [Mongolia: Part 1](https://danielraff.com/travel/Mongol-Rally.html#mongolia-part-1)
 * [Mongolia: Part 2](https://danielraff.com/travel/Mongol-Rally.html#mongolia-part-2)
 
