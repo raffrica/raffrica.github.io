@@ -20,6 +20,7 @@ I've gone on some adventures:
 I've made some things:
 
 * Co-Founder and board member of [Hatching Health](http://www.hatchinghealth.com/)
+* A recommender system for [Read by QxMD](https://qxmd.com/read-by-qxmd) (an app for viewing medical research papers)
 * [Visualization of Canadian Medical Health Survey Data](https://raffrica.shinyapps.io/cad_mental_health_viz/)
 
 <br>
