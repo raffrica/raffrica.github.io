@@ -60,7 +60,7 @@ Now, importantly for SSL (and the 'secure' https to be enabled), we need to add 
 
 I added two rules here: 
 
-1. I enforced always using `https` with any derivation of `danielraff.com`. This asterisks are important here http://*danielraff.com/* ensure that all subdomains and pages within my website will load via `https` and not just `http`.  
+1. I enforced always using `https` with any derivation of `danielraff.com`. This asterisks are important here http://\*danielraff.com/\* ensure that all subdomains and pages within my website will load via `https` and not just `http`.  
 2. (Optional) Cloudflare only allows a user to have a secure root domain for free, but I wanted it so that when someone enters `www.danielraff.com`,  I wanted it so that if people went to `www.danielraff.com` there wasn't an error page, so here I redirect `www.danielraff.com` to `danielraff.com`.  
 
 
