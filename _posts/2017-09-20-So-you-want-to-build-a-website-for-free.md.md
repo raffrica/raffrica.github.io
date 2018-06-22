@@ -22,6 +22,8 @@ In order to have a website that is hosted for free (by Github), but is still sec
 
 > your_domain.com -> Your domain provider (gandi.net) -> Cloudflare (secure) -> Github (free hosting)
 
+<!--more-->
+
 To make this happen, follow along:  
 
 **Step 1: Buy a Domain**  
