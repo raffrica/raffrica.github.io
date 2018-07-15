@@ -14,7 +14,9 @@ tags: [internet]
 
 In my second year of medical school, I decided to open an unfamiliar email entitled: “UBC Centennial Symposium on Health Informatics”. What was Health Informatics? I had no idea, but I intended to find out. The symposium featured the UK’s National Health Service (NHS) and showcased their use of [large population datasets](https://www.genomicsengland.co.uk/) to improve the quality of NHS services in various ways - by providing research support, industry development, and quality improvement. I was impressed with how advanced the NHS was in using data to actually improve care. I went into medicine because caring for and establishing relationships with patients fulfills a personal desire to help people one on one. Applying data science to healthcare seemed to provide the opportunity to positively impact millions at a time, *in addition* to one at a time.
 
-So why now? Well, we are reaching a critical mass to drive healthcare's transition to digital, following many other industries. This is a combination of more health data, better health data, the rapid growth in the field of data science, better and faster computation and a greater cultural shift in healthcare as a whole. 
+So why now? Well, we are reaching a critical mass to drive healthcare's transition to digital, following many other industries. This is a combination of more health data, better health data, the rapid growth in the field of data science, better and faster computation and a greater cultural shift in healthcare as a whole.
+
+<!--more-->  
 
 * **More Health Data**
     * In our increasingly digital worlds, where [90% of all data was generated in the past 2 years](https://web-assets.domo.com/blog/wp-content/uploads/2017/07/17_domo_data-never-sleeps-5-01.png), healthcare is no exception. The beginnings of change are apparent:  paper records are becoming electronic as electronic medical records (EMRs) are becoming universally adopted, the field of genomics is maturing, and
@@ -23,9 +25,6 @@ So why now? Well, we are reaching a critical mass to drive healthcare's transiti
     * There is a world-wide effort to improve the quality and accessibility of the health data that we capture. One issue with health data is interoperability - data from different systems don’t always talk nicely to one another. If two different clinicians describe a similar disease but use different words (eg: ‘Heart failure with preserved ejection fraction’ vs. ‘Congestive heart failure’), how can we bring these data together? There have been substantial (but incomplete) efforts on the health standards that can allow this communication ([SMART on FHIR](https://smarthealthit.org/), [FHIR 3.0](http://hl7.org/fhir/stu3/index.html)). Another issue involves significant challenges we face in extracting data we care about - many clinical documents are unstructured. Although there’s a lot of valuable data in a clinician’s typed note, it’s difficult to extract the exact data we care about. There have been strides towards this with machine learning models (natural language processing), and with companies such as [FlatIron Health](https://flatiron.com/) making it their mission to structure data so that it’s useable. 
 * **Data Science**
     * The field of data science (which encompasses machine learning and artificial intelligence) is rapidly evolving. With new tools and technologies we can handle larger amounts of data, in addition to using that data more intelligently for descriptive, diagnostic, and predictive analytics.
-
-
-<!--more--> 
    
 * **Better and Faster Computation**
     * With the combination of Moore’s law and the easy accessibility of the ‘cloud’, right now is the easiest it’s ever been to get computing resources. If data is the fuel, computation resources are the engines, and in the past few years we’ve quickly upgraded from a 1000cc engine to a jet engine.
