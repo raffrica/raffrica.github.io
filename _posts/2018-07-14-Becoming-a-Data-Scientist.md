@@ -8,6 +8,8 @@ tags: [internet]
 
 ![](/assets/images/blog/brain_data.png)
 
+*An abridged version was also published on the [UBC Master of Data Science blog](https://ubc-mds.github.io/2018-07-04-becoming-a-data-scientist/)*
+
 ## Part 1: Why I Did It? 
 
 In my second year of medical school, I decided to open an unfamiliar email entitled: “UBC Centennial Symposium on Health Informatics”. What was Health Informatics? I had no idea, but I intended to find out. The symposium featured the UK’s National Health Service (NHS) and showcased their use of [large population datasets](https://www.genomicsengland.co.uk/) to improve the quality of NHS services in various ways - by providing research support, industry development, and quality improvement. I was impressed with how advanced the NHS was in using data to actually improve care. I went into medicine because caring for and establishing relationships with patients fulfills a personal desire to help people one on one. Applying data science to healthcare seemed to provide the opportunity to positively impact millions at a time, *in addition* to one at a time.
