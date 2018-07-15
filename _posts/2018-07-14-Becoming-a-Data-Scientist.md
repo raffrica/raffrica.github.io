@@ -6,6 +6,7 @@ categories: [data_science]
 tags: [internet]
 ---
 
+![](/assets/images/blog/brain_data.png)
 
 ## Part 1: Why I Did It? 
 
