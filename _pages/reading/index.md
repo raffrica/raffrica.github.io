@@ -10,6 +10,7 @@ permalink: "/reading/"
 
 ##### 2018   
 
+* [In the Realm of Hungry Ghosts *by Gabor Mate*](https://www.amazon.ca/Realm-Hungry-Ghosts-Encounters-Addiction/dp/0676977413)
 * [Shoe Dog: A Memoir by the Creator of Nike *by Phil Knight*](https://www.amazon.ca/Shoe-Dog-Memoir-Creator-Nike/dp/1501135910)
 * [Being Mortal *by Atul Gawande*](http://atulgawande.com/book/being-mortal/) - *worth a second read*
 * [The Patient Will See you Now *by Eric Topol*](https://www.goodreads.com/book/show/22825546-the-patient-will-see-you-now){:target="_blank"}
