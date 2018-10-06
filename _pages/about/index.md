@@ -25,4 +25,4 @@ I've made some things:
 
 <br>
 
-I like to [swim](http://vancouver.ca/parks-recreation-culture/kitsilano-pool.aspx), [snowboard](https://www.whistlerblackcomb.com/), run, and bike in Vancouver, British Columbia.  
+I like to [swim](http://vancouver.ca/parks-recreation-culture/kitsilano-pool.aspx), [snowboard](https://www.whistlerblackcomb.com/), run, and [bike](https://www.rbcgranfondo.com/whistler/) in Vancouver, British Columbia.  
