@@ -10,6 +10,7 @@ permalink: "/reading/"
 
 ##### 2018   
 
+* [Sapiens *by Yuval Noah Harari*](https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095)  
 * [In the Realm of Hungry Ghosts *by Gabor Mate*](https://www.amazon.ca/Realm-Hungry-Ghosts-Encounters-Addiction/dp/0676977413)
 * [Shoe Dog: A Memoir by the Creator of Nike *by Phil Knight*](https://www.amazon.ca/Shoe-Dog-Memoir-Creator-Nike/dp/1501135910)
 * [Being Mortal *by Atul Gawande*](http://atulgawande.com/book/being-mortal/) - *worth a second read*
