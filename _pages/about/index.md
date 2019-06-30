@@ -4,7 +4,7 @@ title:  "About Me"
 permalink: "/about/"
 ---
 
-I am a Family Medicine Resident at the [University of British Columbia](http://mdprogram.med.ubc.ca/2016/10/11/md-student-daniel-raff-receives-the-2016-canadian-medical-hall-of-fame-award/) and recently completed a [Master's of Data Science](https://masterdatascience.science.ubc.ca/). 
+I am a Family Medicine Resident at the [University of British Columbia](http://mdprogram.med.ubc.ca/2016/10/11/md-student-daniel-raff-receives-the-2016-canadian-medical-hall-of-fame-award/) Surrey-South Fraser Site. I recently completed a [Master's of Data Science](https://masterdatascience.science.ubc.ca/). 
  
 
 <br>
