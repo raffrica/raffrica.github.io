@@ -8,6 +8,9 @@ permalink: "/reading/"
 
 ### Books *(and long articles)*:  
 
+##### 2019
+* [Long Walk to Freedom *by Nelson Mandela*](https://www.amazon.ca/Long-Walk-Freedom-Autobiography-Mandela/dp/0316548189/ref=sr_1_1?keywords=long+walk+to+freedom&qid=1561918294&s=gateway&sr=8-1)
+
 ##### 2018   
 
 * [Sapiens *by Yuval Noah Harari*](https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095)  
