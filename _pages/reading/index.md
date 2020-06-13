@@ -8,7 +8,16 @@ permalink: "/reading/"
 
 ### Books *(and long articles)*:  
 
+##### 2020
+* [White Fragility: Why It's So Hard for White People to Talk About Racism *by Robin DiAngelo*](https://www.amazon.ca/White-Fragility-People-About-Racism/dp/0807047414)  
+* [Inspired: How to Create Tech Products Customers Love, Second Edition *by Marty Kagan*](https://www.amazon.ca/INSPIRED-Create-Tech-Products-Customers-ebook/dp/B077NRB36N)  
+* [The Future is Faster Than You Think *by Peter Diamandis*](https://www.amazon.ca/Future-Faster-Than-You-Think/dp/1982109661)  
+* [Harry Potter and the Philosopher's Stone *by J.K. Rowling*](https://www.amazon.ca/Harry-Potter-Philosophers-Stone-Rowling/dp/1408855895)  
+
 ##### 2019
+* [Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again *by Eric Topol*](https://www.amazon.ca/Deep-Medicine-Artificial-Intelligence-Healthcare/dp/1541644638)  
+* [Freedom *by Jonathan Franzen*](https://www.amazon.ca/Freedom-Jonathan-Franzen/dp/1554688833)  
+* [Better Now *by Danielle Martin*](https://www.amazon.ca/Better-Now-Improve-Health-Canadians/dp/0735232598)  
 * [Long Walk to Freedom *by Nelson Mandela*](https://www.amazon.ca/Long-Walk-Freedom-Autobiography-Mandela/dp/0316548189/ref=sr_1_1?keywords=long+walk+to+freedom&qid=1561918294&s=gateway&sr=8-1)
 
 ##### 2018   
