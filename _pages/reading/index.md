@@ -9,6 +9,11 @@ permalink: "/reading/"
 ### Books *(and long articles)*:  
 
 ##### 2020
+* [Factfulness: Ten Reasons We're Wrong About the World--and Why Things Are Better Than You Think *by Hans Rosling*](https://www.amazon.ca/s?k=factfulness&crid=3MJ5M1VQRSG23&sprefix=oat+milk+earths%2Caps%2C313&ref=nb_sb_ss_ts-a-p_3_15)   
+* [The Name of the Wind *by Patrick Rothfuss*](https://www.amazon.ca/Name-Wind-Kingkiller-Chronicle-Day/dp/0756404746)  
+* [Dune *by Frank Herbert*](https://www.amazon.ca/Dune-Frank-Herbert/dp/0441172717)  
+* [The Dark Forest *by Cixin Liu*](https://www.amazon.ca/Dark-Forest-Cixin-Liu/dp/0765386690/ref=pd_lpo_14_t_2/143-9840121-8386001?_encoding=UTF8&pd_rd_i=0765386690&pd_rd_r=089fc0b5-76dd-4907-addb-7cd6b276e2a6&pd_rd_w=hs6dg&pd_rd_wg=tlrFm&pf_rd_p=256a14b6-93bc-4bcd-9f68-aea60d2878b9&pf_rd_r=6CXXBWCF07ZAEFY507B0&psc=1&refRID=6CXXBWCF07ZAEFY507B0)  
+* [The Three Body Problem *by Cixin Liu*](https://www.amazon.ca/Three-Body-Problem-Cixin-Liu/dp/0765377063)  
 * [White Fragility: Why It's So Hard for White People to Talk About Racism *by Robin DiAngelo*](https://www.amazon.ca/White-Fragility-People-About-Racism/dp/0807047414)  
 * [Inspired: How to Create Tech Products Customers Love, Second Edition *by Marty Kagan*](https://www.amazon.ca/INSPIRED-Create-Tech-Products-Customers-ebook/dp/B077NRB36N)  
 * [The Future is Faster Than You Think *by Peter Diamandis*](https://www.amazon.ca/Future-Faster-Than-You-Think/dp/1982109661)  
