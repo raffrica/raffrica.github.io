@@ -11,7 +11,7 @@ disqus: danielraff-com
 
 # Social Accounts
 social_networks:
--  { name: facebook, url: '' }
+-  { name: facebook, url: 'https://www.facebook.com/' }
 -  { name: twitter, url: 'https://twitter.com/raffrica' }
 -  { name: instagram, url: '' }
 -  { name: google-plus, url: '' }
