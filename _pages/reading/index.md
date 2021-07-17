@@ -9,6 +9,13 @@ permalink: "/reading/"
 ### Books *(and long articles)*:  
 
 ##### 2021  
+* [Zero to One: Notes on Startups, or How to Build the Future *by Peter Thiel, Blake Masters*](https://www.goodreads.com/book/show/18050143-zero-to-one)  
+* [The Divide: American Injustice in the Age of the Wealth Gap *by Matt Taibbi*](https://www.goodreads.com/book/show/17834864-the-divide)  
+* [Indigenous Writes: A Guide to First Nations, Métis, and Inuit Issues in Canada *by Chelsea Vowel*](https://www.goodreads.com/en/book/show/30181589)  
+* [The Wise Man's Fear *by Patrick Rothfuss*](https://www.goodreads.com/book/show/1215032.The_Wise_Man_s_Fear)  
+* [Born a Crime: Stories From a South African Childhood *by Trever Noah*](https://www.goodreads.com/book/show/29780253-born-a-crime)  
+* [Yearbook *by Seth Rogen*](https://www.goodreads.com/book/show/44678031-yearbook)  
+* [Where the Crawdads Sing *by Delia Owens*](https://www.goodreads.com/book/show/36809135-where-the-crawdads-sing)   
 * [How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence *by Michael Pollan*](https://www.amazon.ca/Change-Your-Mind-Consciousness-Transcendence/dp/1594204225)  
 * [Death's End *by Cixin Liu*](https://www.amazon.ca/Deaths-End-Cixin-Liu/dp/0765377101)   
 
