@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>So you want to build a website for free? | Daniel Raff &mdash; Family Med Doc. Data Scientist. </title>
+    <meta property="og:title" content="So you want to build a website for free? | Daniel Raff &mdash; Family Med Doc. Data Scientist. " />
+    <meta name="twitter:title" content="So you want to build a website for free? | Daniel Raff &mdash; Family Med Doc. Data Scientist. " />
+
+    <meta name="description" content="I am passionate about extending the reach and quality of clinical care through data science tools and technology. Co-Founder of Hatching Health.">
+    <meta name="description" property="og:description" content="I am passionate about extending the reach and quality of clinical care through data science tools and technology. Co-Founder of Hatching Health." />
+    <meta name="twitter:description" content="I am passionate about extending the reach and quality of clinical care through data science tools and technology. Co-Founder of Hatching Health." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta name="twitter:site" content="@raffrica" />
+    
+    <meta property="og:url" content="http://localhost:4000/data_science/So-you-want-to-build-a-website-for-free.md.html" />
+
+    <meta property="og:image" content="" />
+    <meta name="twitter:image" content="" />
+
+    <meta name="author" content="Daniel Raff" />
+
+    <meta name="copyright" content="Copyright by Daniel Raff. All Rights Reserved." />
+
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v15/mnpfi9pxYH-Go5UiibESIltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 300;
+            src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v15/7m8l7TlFO-S3VkhHuR0at44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v15/vPcynSL0qHq_6dX7lKVByfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 900;
+            src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v15/bmC0pGMXrhphrZJmniIZpY4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+    </style>
+    
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+    <link rel="canonical" href="http://localhost:4000/data_science/So-you-want-to-build-a-website-for-free.md.html">
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+</head>
+
+    <body>
+        <div class="wrapper clear">
+            <aside class="user-profile fixed" role="complementary">
+    <div class="burger">
+        <input class="trigger hidden" id="toggleBurger" type="checkbox" />
+        <label for="toggleBurger">
+            <span>Navigation</span>
+        </label>
+    </div>
+
+    <div class="compact-header">
+        <a href="http://localhost:4000/about"><img class="avatar" src="https://www.gravatar.com/avatar/5b32c2bf27fb3eabc5bb5cfbfb47aac6?s=2048" /></a>
+        <div class="my-info">
+            <strong class="my-name">Daniel Raff</strong>
+            <span class="my-job-title">Family Med Doc. Data Scientist.</span>
+        </div>
+    </div>
+
+    
+        
+        <div class="mainmenu">
+            <a href="http://localhost:4000/about" >About Me</a>
+            
+                
+            
+                
+            
+                
+            
+                
+                    <a href="http://localhost:4000/reading/" >What I'm Reading</a>
+                
+            
+                
+            
+                
+                    <a href="http://localhost:4000/hatchinghealth/" >Hatching Health</a>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            <a href="http://localhost:4000" >Blog</a>
+        </div>
+        
+    
+
+    <p class="about-me">I am passionate about extending the reach and quality of clinical care through data science tools and technology. Co-Founder of Hatching Health.</p>
+
+    <ul class="socials">
+        <li><a href="https://www.facebook.com/"><svg title="facebook" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></li><li><a href="https://twitter.com/raffrica"><svg title="twitter" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li><li><a href="https://www.linkedin.com/in/danielraff/"><svg title="linkedin" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#linkedin-icon"></use></svg></a></li><li><a href="https://github.com/raffrica/"><svg title="github" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#github-icon"></use></svg></a></li>
+
+        
+            <li><a href="mailto:daniel18raff@gmail.com"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#email-icon"></use></svg></a></li>
+        
+
+        
+         <li><a href="http://localhost:4000/feed.xml"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#rss-icon"></use></svg></a></li>
+        
+    </ul>
+</aside>
+
+
+            <main class="the-content" role="main">
+                <div class="search" role="search">
+    <div>
+        <div class="show-results-count">0 Results</div>
+        <div class="search-holder clear">
+            <input type="text" id="search-input" placeholder="search for...">
+        </div>
+    </div>
+    <ul id="results-container" class="results-container"></ul>
+</div>
+
+
+                <article class="post single" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2017-09-20T10:48:23-07:00" itemprop="datePublished">20 Sep, 2017</time></li>
+            
+        </ul>
+        <h2 itemprop="name headline">So you want to build a website for free?</h2>
+    </header>
+
+    <div class="post-content">
+        <p>My website (that you’re currently reading this on) is completely free. Well not <em>completely free</em>, I still have to pay for the domain name, but other than that there are no hosting fees, and it’s secure (<code class="language-plaintext highlighter-rouge">https</code>).</p>
+
+<p>I thought I’d make a <em>quick (and lazy)</em> tutorial on how to get a freely hosted and secure website. This post is going to be a stub, and I’m assuming you already have a blog hosted on Github pages as a starting point. If you don’t already, there are a few good tutorials to get a Github pages blog up a running. Github kindly hosts these static pages. Here are a few tutorials to get started with Github pages and Jekyll blogs:</p>
+
+<ul>
+  <li><a href="https://pages.github.com/">https://pages.github.com/</a></li>
+  <li><a href="https://github.com/barryclark/jekyll-now">https://github.com/barryclark/jekyll-now</a></li>
+</ul>
+
+<hr />
+
+<p>With your live Github pages jekyll blog in hand, let’s connect that to your personal domain with <code class="language-plaintext highlighter-rouge">https</code>. I’ll run through the following with my own website.</p>
+
+<p>In order to have a website that is hosted for free (by Github), but is still secured (by Cloudflare), we’re going to have to redirect traffic. This starts with your domain provider (I’m using gandi.net). The web traffic will be redirected as follows, starting with someone typing in your domain into their browser.</p>
+
+<blockquote>
+  <p>your_domain.com -&gt; Your domain provider (gandi.net) -&gt; Cloudflare (secure) -&gt; Github (free hosting)</p>
+</blockquote>
+
+<!--more-->
+
+<p>To make this happen, follow along:</p>
+
+<p><strong>Step 1: Buy a Domain</strong></p>
+
+<p>I bought <a href="danielraff.com">danielraff.com</a> through <a href="gandi.net">gandi.net</a>. It cost $201.50 CAD for 10 years.</p>
+
+<p><strong>Step 2: Add your domain to your Github Pages repo</strong></p>
+
+<p>My github pages repo is at: <a href="https://github.com/raffrica/raffrica.github.io/settings">https://github.com/raffrica/raffrica.github.io/</a>. Navigate to the settings tab, and scroll down to the Github Pages section. Here, add your domain name to the Custom Domain section.</p>
+
+<ul>
+  <li>Note: Alternatively you could just add a <code class="language-plaintext highlighter-rouge">CNAME</code> file to the root of your repo with your domain name inside of it. Whatever floats your boat.</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Add your Domain to Github Pages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/images/blog/website_building/github_1.png" alt="" /></td>
+    </tr>
+    <tr>
+      <td><img src="/assets/images/blog/website_building/github_2.png" alt="" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Step 3: Make a Cloudflare account</strong></p>
+
+<p>Cloudflare has a free option for personal websites/blogs.</p>
+
+<p>After you’ve made your account, add a site (your domain).</p>
+
+<p>Modify your DNS records to match the following (except with you domain name instead of mine). Note: The IP addresses for Github pages are (192.30.252.153 and 192.30.252.154). Your equivalent to the IP address 217.70.184.38 will be whatever your domain name provider has supplied you with (Cloudflare should autopopulate this, but if it doesn’t log in to your domain name provider - in my case Gandi.net)</p>
+
+<p><img src="/assets/images/blog/website_building/cloud_flare_1.png" alt="" /></p>
+
+<p>At the bottom of that image, you can see the Cloudflare nameservers that have been automatically generated. These are important. You’ll need these when we go and look at your domain name provider.</p>
+
+<p>Now, importantly for SSL (and the ‘secure’ https to be enabled), we need to add a page rule to your site. Navigate to ‘Page Rules’, and replicate the following screenshot.</p>
+
+<p><img src="/assets/images/blog/website_building/cloud_flare_2.png" alt="" /></p>
+
+<p>I added two rules here:</p>
+
+<ol>
+  <li>I enforced always using <code class="language-plaintext highlighter-rouge">https</code> with any derivation of <code class="language-plaintext highlighter-rouge">danielraff.com</code>. This asterisks are important here http://*danielraff.com/* ensure that all subdomains and pages within my website will load via <code class="language-plaintext highlighter-rouge">https</code> and not just <code class="language-plaintext highlighter-rouge">http</code>.</li>
+  <li>(Optional) Cloudflare only allows a user to have a secure root domain for free, but I wanted it so that when someone enters <code class="language-plaintext highlighter-rouge">www.danielraff.com</code>,  I wanted it so that if people went to <code class="language-plaintext highlighter-rouge">www.danielraff.com</code> there wasn’t an error page, so here I redirect <code class="language-plaintext highlighter-rouge">www.danielraff.com</code> to <code class="language-plaintext highlighter-rouge">danielraff.com</code>.</li>
+</ol>
+
+<p><strong>Step 4: Redirect from Domain name provider to Cloudflare</strong></p>
+
+<p>So far we’ve redirected traffic from Cloudflare to Github, and we’ve ensure that Github is expecting traffic from a specific domain name (CNAME). There’s still a missing piece however, the redirection of traffic from the domain name to Cloudflare in the first place.</p>
+
+<p>Change your domain name provider’s Nameservers to match the generated ones from Cloudflare. Check out the following screenshot for how I did that.</p>
+
+<p><img src="/assets/images/blog/website_building/gandi.png" alt="" /></p>
+
+<p><strong>DONE!</strong></p>
+
+<p>Your website should now work.. although it may take a bit of time for Nameserver updates to be completed (up to 48 hours).</p>
+
+<p>Please comment here if things aren’t working, or message me personally on <a href="https://www.linkedin.com/in/danielraff/">Linkedin</a> or through whichever channel you know me by.</p>
+
+<p><strong>Next Steps</strong></p>
+
+<p>You can read my <a href="https://danielraff.com/data_science/What-is-a-website-address.html">blog post on what website addresses</a> <em>actually are</em>.</p>
+
+<p>You can add gmail ability (for free) following this tutorial: <a href="https://medium.com/@onedurr/how-to-set-up-custom-email-addresses-on-your-web-site-for-free-afd700de5e9c">https://medium.com/@onedurr/how-to-set-up-custom-email-addresses-on-your-web-site-for-free-afd700de5e9c</a></p>
+
+
+    </div>
+
+    <footer class="post-footer">
+        <div class="share">Share
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=So you want to build a website for free?&p[summary]=My website (that you’re currently reading this on) is completely free. Well not completely free, I still have to pay for the domain name,...&p[url]=http://localhost:4000/data_science/So-you-want-to-build-a-website-for-free.md.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=http://localhost:4000/data_science/So-you-want-to-build-a-website-for-free.md.html&text=My website (that you’re currently reading this on) is completely free. Well not completely free, I still have to pay for the domain name,...&hashtags=internet," rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+        
+        <div class="tags">
+            <ul>
+                
+                <li><a href="http://localhost:4000/tag/internet">internet</a></li>
+                
+            </ul>
+        </div>
+        
+    </footer>
+</article>
+
+
+<aside class="comments" role="complementary">
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'http://localhost:4000/data_science/So-you-want-to-build-a-website-for-free.md.html';
+            this.page.identifier = '9/20/2017';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');
+
+            s.src = '//danielraff-com.disqus.com/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+</aside>
+
+            </main>
+        </div>
+
+        <script src="http://localhost:4000/assets/js/jquery-1.12.2.min.js"></script>
+<script src="http://localhost:4000/assets/js/backtotop.js"></script>
+<script src="http://localhost:4000/assets/js/lunr.min.js"></script>
+<script src="http://localhost:4000/assets/js/lunr-feed.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.fitvids.js"></script>
+<script src="http://localhost:4000/assets/js/svg4everybody.min.js"></script>
+<script src="http://localhost:4000/assets/js/scripts.js"></script>
+
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-116431800-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    </body>
+</html>

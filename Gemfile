@@ -11,6 +11,7 @@ ruby RUBY_VERSION
 # Happy Jekylling!
 gem 'jekyll', '>=3.9', '<4'
 gem "kramdown", ">= 2.3.1"
+gem "kramdown-parser-gfm"
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

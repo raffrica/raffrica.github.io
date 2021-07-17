@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Becoming a Data Scientist: My Year-Long Hiatus from Medical School | Daniel Raff &mdash; Family Med Doc. Data Scientist. </title>
+    <meta property="og:title" content="Becoming a Data Scientist: My Year-Long Hiatus from Medical School | Daniel Raff &mdash; Family Med Doc. Data Scientist. " />
+    <meta name="twitter:title" content="Becoming a Data Scientist: My Year-Long Hiatus from Medical School | Daniel Raff &mdash; Family Med Doc. Data Scientist. " />
+
+    <meta name="description" content="I am passionate about extending the reach and quality of clinical care through data science tools and technology. Co-Founder of Hatching Health.">
+    <meta name="description" property="og:description" content="I am passionate about extending the reach and quality of clinical care through data science tools and technology. Co-Founder of Hatching Health." />
+    <meta name="twitter:description" content="I am passionate about extending the reach and quality of clinical care through data science tools and technology. Co-Founder of Hatching Health." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <meta name="twitter:site" content="@raffrica" />
+    
+    <meta property="og:url" content="http://localhost:4000/data_science/Becoming-a-Data-Scientist.html" />
+
+    <meta property="og:image" content="" />
+    <meta name="twitter:image" content="" />
+
+    <meta name="author" content="Daniel Raff" />
+
+    <meta name="copyright" content="Copyright by Daniel Raff. All Rights Reserved." />
+
+    <style>
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v15/mnpfi9pxYH-Go5UiibESIltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 300;
+            src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url(https://fonts.gstatic.com/s/roboto/v15/7m8l7TlFO-S3VkhHuR0at44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Roboto Italic'), local('Roboto-Italic'), url(https://fonts.gstatic.com/s/roboto/v15/vPcynSL0qHq_6dX7lKVByfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(https://fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: italic;
+            font-weight: 900;
+            src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url(https://fonts.gstatic.com/s/roboto/v15/bmC0pGMXrhphrZJmniIZpY4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+        }
+    </style>
+    
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+    <link rel="canonical" href="http://localhost:4000/data_science/Becoming-a-Data-Scientist.html">
+
+    <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+</head>
+
+    <body>
+        <div class="wrapper clear">
+            <aside class="user-profile fixed" role="complementary">
+    <div class="burger">
+        <input class="trigger hidden" id="toggleBurger" type="checkbox" />
+        <label for="toggleBurger">
+            <span>Navigation</span>
+        </label>
+    </div>
+
+    <div class="compact-header">
+        <a href="http://localhost:4000/about"><img class="avatar" src="https://www.gravatar.com/avatar/5b32c2bf27fb3eabc5bb5cfbfb47aac6?s=2048" /></a>
+        <div class="my-info">
+            <strong class="my-name">Daniel Raff</strong>
+            <span class="my-job-title">Family Med Doc. Data Scientist.</span>
+        </div>
+    </div>
+
+    
+        
+        <div class="mainmenu">
+            <a href="http://localhost:4000/about" >About Me</a>
+            
+                
+            
+                
+            
+                
+            
+                
+                    <a href="http://localhost:4000/reading/" >What I'm Reading</a>
+                
+            
+                
+            
+                
+                    <a href="http://localhost:4000/hatchinghealth/" >Hatching Health</a>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            <a href="http://localhost:4000" >Blog</a>
+        </div>
+        
+    
+
+    <p class="about-me">I am passionate about extending the reach and quality of clinical care through data science tools and technology. Co-Founder of Hatching Health.</p>
+
+    <ul class="socials">
+        <li><a href="https://www.facebook.com/"><svg title="facebook" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></li><li><a href="https://twitter.com/raffrica"><svg title="twitter" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li><li><a href="https://www.linkedin.com/in/danielraff/"><svg title="linkedin" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#linkedin-icon"></use></svg></a></li><li><a href="https://github.com/raffrica/"><svg title="github" width="16" height="16" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#github-icon"></use></svg></a></li>
+
+        
+            <li><a href="mailto:daniel18raff@gmail.com"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#email-icon"></use></svg></a></li>
+        
+
+        
+         <li><a href="http://localhost:4000/feed.xml"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#rss-icon"></use></svg></a></li>
+        
+    </ul>
+</aside>
+
+
+            <main class="the-content" role="main">
+                <div class="search" role="search">
+    <div>
+        <div class="show-results-count">0 Results</div>
+        <div class="search-holder clear">
+            <input type="text" id="search-input" placeholder="search for...">
+        </div>
+    </div>
+    <ul id="results-container" class="results-container"></ul>
+</div>
+
+
+                <article class="post single" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+        <ul class="clear">
+            <li><time datetime="2018-07-14T10:48:23-07:00" itemprop="datePublished">14 Jul, 2018</time></li>
+            
+        </ul>
+        <h2 itemprop="name headline">Becoming a Data Scientist: My Year-Long Hiatus from Medical School</h2>
+    </header>
+
+    <div class="post-content">
+        <p><img src="/assets/images/blog/brain_data.png" alt="" /></p>
+
+<p><em>An abridged version was also published on the <a href="https://ubc-mds.github.io/2018-07-04-becoming-a-data-scientist/">UBC Master of Data Science blog</a></em></p>
+
+<h2 id="part-1-why-i-did-it">Part 1: Why I Did It?</h2>
+
+<p>In my second year of medical school, I decided to open an unfamiliar email entitled: “UBC Centennial Symposium on Health Informatics”. What was Health Informatics? I had no idea, but I intended to find out. The symposium featured the UK’s National Health Service (NHS) and showcased their use of <a href="https://www.genomicsengland.co.uk/">large population datasets</a> to improve the quality of NHS services in various ways - by providing research support, industry development, and quality improvement. I was impressed with how advanced the NHS was in using data to actually improve care. I went into medicine because caring for and establishing relationships with patients fulfills a personal desire to help people one on one. Applying data science to healthcare seemed to provide the opportunity to positively impact millions at a time, <em>in addition</em> to one at a time.</p>
+
+<p>So why now? Well, we are reaching a critical mass to drive healthcare’s transition to digital, following many other industries. This is a combination of more health data, better health data, the rapid growth in the field of data science, better and faster computation and a greater cultural shift in healthcare as a whole.</p>
+
+<!--more-->
+
+<ul>
+  <li><strong>More Health Data</strong>
+    <ul>
+      <li>In our increasingly digital worlds, where <a href="https://web-assets.domo.com/blog/wp-content/uploads/2017/07/17_domo_data-never-sleeps-5-01.png">90% of all data was generated in the past 2 years</a>, healthcare is no exception. The beginnings of change are apparent:  paper records are becoming electronic as electronic medical records (EMRs) are becoming universally adopted, the field of genomics is maturing, and
+ patient-generated data is gaining momentum.</li>
+    </ul>
+  </li>
+  <li><strong>Better Health Data</strong>
+    <ul>
+      <li>There is a world-wide effort to improve the quality and accessibility of the health data that we capture. One issue with health data is interoperability - data from different systems don’t always talk nicely to one another. If two different clinicians describe a similar disease but use different words (eg: ‘Heart failure with preserved ejection fraction’ vs. ‘Congestive heart failure’), how can we bring these data together? There have been substantial (but incomplete) efforts on the health standards that can allow this communication (<a href="https://smarthealthit.org/">SMART on FHIR</a>, <a href="http://hl7.org/fhir/stu3/index.html">FHIR 3.0</a>). Another issue involves significant challenges we face in extracting data we care about - many clinical documents are unstructured. Although there’s a lot of valuable data in a clinician’s typed note, it’s difficult to extract the exact data we care about. There have been strides towards this with machine learning models (natural language processing), and with companies such as <a href="https://flatiron.com/">FlatIron Health</a> making it their mission to structure data so that it’s useable.</li>
+    </ul>
+  </li>
+  <li><strong>Data Science</strong>
+    <ul>
+      <li>The field of data science (which encompasses machine learning and artificial intelligence) is rapidly evolving. With new tools and technologies we can handle larger amounts of data, in addition to using that data more intelligently for descriptive, diagnostic, and predictive analytics.</li>
+    </ul>
+  </li>
+  <li><strong>Better and Faster Computation</strong>
+    <ul>
+      <li>With the combination of Moore’s law and the easy accessibility of the ‘cloud’, right now is the easiest it’s ever been to get computing resources. If data is the fuel, computation resources are the engines, and in the past few years we’ve quickly upgraded from a 1000cc engine to a jet engine.</li>
+    </ul>
+  </li>
+  <li><strong>Cultural Shift</strong>
+    <ul>
+      <li>Finally, there has been a major culture shift within and outside of healthcare. The medical community has embraced the necessity and role of real-world evidence (RWE) - data from EMRs - in filling the gap between efficacy and effectiveness. The <a href="https://www.fda.gov/downloads/medicaldevices/deviceregulationandguidance/guidancedocuments/ucm513027.pdf">FDA has endorsed RWE</a> to support regulatory decision making. The American Medical Association has released it’s <a href="https://www.ama-assn.org/ama-passes-first-policy-recommendations-augmented-intelligence">first policy recommendation on AI</a>. The NHS has (controversially) <a href="https://deepmind.com/blog/streams-and-ai/">partnered with Google</a>. Private corporations are making efforts to scale healthcare’s previously impenetrable walls. <a href="https://www.apple.com/newsroom/2018/01/apple-announces-effortless-solution-bringing-health-records-to-iPhone/">Apple has announced personal health records</a>, with multiple American medical facilities allowing users to access and download their own patient data from the hospital onto their phone. Esteemed and respected doctors are embracing private innovation, with leaders like Dr. Eric Topol and Dr. Atul Gawande (recently appointed CEO of Amazon-Berkshire Hathaway-JP Morgan joint venture) at the forefront.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="so-why-data-science">So Why Data Science?</h4>
+
+<p>I saw the University of British Columbia (UBC) Master of Data Science as providing me the tools to realize two main objectives: connecting the two fields of healthcare and data science, and identifying healthcare challenges amenable to data-driven solutions - solutions that I could personally execute. Clearly, change is fast approaching in healthcare, and I wanted to contribute. I was in the process of completing clerkship at UBC medical school (hospital day and night and studying in between - think Scrubs), and felt that it was now or never, that this field is expanding so quickly that I wanted to inject my education with technical literacy. My thought was that this would kick-start my technical knowledge so that as I become a more rounded clinician, I can actively incorporate what I learn about data science into my practice.</p>
+
+<p>As someone who is already embedded in the healthcare system, I believe that I’m uniquely poised as a data ambassador to communicate between technology and healthcare, and to help propagate the inevitable data revolution. Rather than being on the sidelines while data science is employed across clinical decisions, research, policy, innovation and governance, I envision myself as a data literate doctor who can understand both clinicians and data scientists. I believe it will become even more vital to have data literate doctors working with healthcare authorities, with hospital management, in research and as interfaces with government and private corporations.</p>
+
+<p>Learning the science of data - programming, statistics, machine learning - equips me with the practical skills of building a data-drive tool. More importantly, it supplies me with the understanding of what is/isn’t feasible from technology, and above all how to communicate with all the brilliant doctors and data scientists who will make healthcare better.</p>
+
+<h2 id="part-2-what-i-learned">Part 2: What I Learned</h2>
+
+<p>UBC’s Master of Data Science is a 10 month intensive program focused on developing statistics, computing and machine learning expertise, working with multiple real-life data sets. It’s topped off by an industry capstone project, where students get to apply all that they’ve learned in a 2 month industry project. My team worked with health tech startup QxMD, building a recommendation system for medical research papers - our recommender outperforms the current system and will be deployed to production in July 2018 (500,000 users).</p>
+
+<p>Let’s back up a bit. I started this Master’s with a very basic knowledge of programming - nothing more than an introductory computer science course under my belt. The curriculum ramps up quickly, starting with basic programming and statistics and then with each subsequent week building exponentially. I went from math and statistics being avoided subjects to subject matter that I can think critically about, and from virtually no programming skills to being confident in my coding abilities. I went from knowing AI as a buzzword (or something from a Hollywood movie) to practically applying various models practically, knowing when to apply each, and their various limitations (and there are many).</p>
+
+<p>While there are countless lessons I’ve learned in the past year, the following are a succinct distillation:</p>
+
+<ul>
+  <li><strong>Understanding the Data Scientist’s Tools (and their limitations)</strong>
+    <ul>
+      <li>A data scientist’s role is largely to obtain data, make it usable, then decide how to use it and finally evaluate how it was used. This seems simple enough, but upon further examination each step comes with the need to make countless decisions, and each decision has its own strengths and weaknesses. Every step of the process introduces various consequences, for instance even how one chooses to handle missing data can have significant repercussions on the output. There are many models to choose from, each satisfying different purposes with different assumptions and biases. All of these decisions are important to understand when evaluating a model’s output. The program provided me with the ability to cut through the ‘big data’ hype and think critically about the choices being made and their consequences.</li>
+    </ul>
+  </li>
+  <li><strong>Coding</strong>
+    <ul>
+      <li>While I can confidently code in Python and R, the larger impact is that I’m no longer intimidated by the prospect of learning a new coding language. I learned how to learn online: finding online resources, reading documentation, and then acquiring the necessary knowledge to execute a task - whether it be making a <a href="https://danielraff.com/about/">personal blog/website</a>, writing a daily email reminder script with Javascript or creating a webapp with Django.</li>
+    </ul>
+  </li>
+  <li><strong>Thinking Statistically</strong>
+    <ul>
+      <li>In medicine we are taught to think as Bayesians. This is the idea that a doctor has a belief about a patient’s diagnosis that is updated with each additional morsel of information. For example, let’s say a patient comes into the emergency room complaining of chest pain. Are they having a heart attack? If they’re a smoker, diabetic, and have a family history of heart disease (all risk factors for coronary artery disease), the doctor will be more convinced that this person may indeed be having a heart attack. I found the transition from ‘human’ Bayesian thought which I’d learned in medical school, to the actual math, to be fascinating. A belief about a diagnosis was just a mathematical distribution (like a Gaussian curve) which was molded and transformed with each additional piece of information. Soon other thoughts found their data science corollaries: pursuing a goal in my personal life felt like an algorithm’s attempt at finding a global maximum, and I started thinking in terms of machine learning terms like ‘objective function’. In addition to thinking more statistically in my daily life, I have a newfound appreciation (and skepticism) for research. With more baseline knowledge, reading research papers has become approachable and interesting (a previously foreign concept).</li>
+    </ul>
+  </li>
+  <li><strong>Speaking Data</strong>
+    <ul>
+      <li>I learned the language of data flow. APIs, databases (SQL vs. NoSQL), data transfer formats (XML, JSON), Docker and other tools and terminology were previously meaningless, and now are dense with meaning, experience, and opinions. My favourite analogy from an <a href="https://a16z.com/2018/03/13/api-economy-why-what-how/">a16z podcast</a> elegantly connects my two worlds by drawing analogies between data flow and blood flow in the body’s cardiovascular system. The beauty of being able to speak both ‘medical’ and ‘data’, is being able to explain complex concepts to different audiences based upon their domain knowledge. In my final project at the health tech start-up (QxMD), I explained advanced machine learning concepts to a medical audience with medical analogies , and then explained medical concepts to a tech audience with tech analogies. The application of machine learning requires a combination of data and medical literacy, and I feel confident that MDS has prepared me well.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>What next? The medical field understands that to be a good doctor, it requires ‘lifelong learning’. Both the fields of medicine and data science are vast and ever-expanding, and in fact have ever-expanding intersection. MDS has provided the tools and critical thinking to take the next steps into this intersection, the rapidly evolving field of Health Informatics. I’m excited to throw myself back into medicine, equipped with this new data science mindset and am mindful of the huge potential these disciplines offer each other.</p>
+
+
+    </div>
+
+    <footer class="post-footer">
+        <div class="share">Share
+            <ul class="social-networks">
+                <li class="share-facebook"><a href="https://www.facebook.com/sharer.php?s=100&p[title]=Becoming a Data Scientist: My Year-Long Hiatus from Medical School&p[summary]=
+
+An abridged version was also published on the UBC Master of Data Science blog
+
+Part 1: Why I Did It?
+
+In my second year of medical scho...&p[url]=http://localhost:4000/data_science/Becoming-a-Data-Scientist.html" class="s_facebook" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#facebook-icon"></use></svg></a></li>
+                <li class="share-twitter"><a href="http://twitter.com/share?url=http://localhost:4000/data_science/Becoming-a-Data-Scientist.html&text=
+
+An abridged version was also published on the UBC Master of Data Science blog
+
+Part 1: Why I Did It?
+
+In my second year of medical scho...&hashtags=internet," rel="noreferrer" target="_blank" onclick="window.open(this.href, '','width=700,height=300');return false;"><svg title="" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:4000/assets/svg/social-icons.svg#twitter-icon"></use></svg></a></li>
+            </ul>
+        </div>
+        
+        <div class="tags">
+            <ul>
+                
+                <li><a href="http://localhost:4000/tag/internet">internet</a></li>
+                
+            </ul>
+        </div>
+        
+    </footer>
+</article>
+
+
+<aside class="comments" role="complementary">
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'http://localhost:4000/data_science/Becoming-a-Data-Scientist.html';
+            this.page.identifier = '7/14/2018';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');
+
+            s.src = '//danielraff-com.disqus.com/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+</aside>
+
+            </main>
+        </div>
+
+        <script src="http://localhost:4000/assets/js/jquery-1.12.2.min.js"></script>
+<script src="http://localhost:4000/assets/js/backtotop.js"></script>
+<script src="http://localhost:4000/assets/js/lunr.min.js"></script>
+<script src="http://localhost:4000/assets/js/lunr-feed.js"></script>
+<script src="http://localhost:4000/assets/js/jquery.fitvids.js"></script>
+<script src="http://localhost:4000/assets/js/svg4everybody.min.js"></script>
+<script src="http://localhost:4000/assets/js/scripts.js"></script>
+
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-116431800-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    </body>
+</html>

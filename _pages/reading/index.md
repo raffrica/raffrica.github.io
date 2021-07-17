@@ -11,7 +11,7 @@ permalink: "/reading/"
 ##### 2021  
 * [Zero to One: Notes on Startups, or How to Build the Future *by Peter Thiel, Blake Masters*](https://www.goodreads.com/book/show/18050143-zero-to-one)  
 * [The Divide: American Injustice in the Age of the Wealth Gap *by Matt Taibbi*](https://www.goodreads.com/book/show/17834864-the-divide)  
-* [Indigenous Writes: A Guide to First Nations, Métis, and Inuit Issues in Canada *by Chelsea Vowel*](https://www.goodreads.com/en/book/show/30181589)  
+* [Indigenous Writes: A Guide to First Nations, Metis, and Inuit Issues in Canada *by Chelsea Vowel*](https://www.goodreads.com/en/book/show/30181589)  
 * [The Wise Man's Fear *by Patrick Rothfuss*](https://www.goodreads.com/book/show/1215032.The_Wise_Man_s_Fear)  
 * [Born a Crime: Stories From a South African Childhood *by Trever Noah*](https://www.goodreads.com/book/show/29780253-born-a-crime)  
 * [Yearbook *by Seth Rogen*](https://www.goodreads.com/book/show/44678031-yearbook)  
@@ -65,4 +65,3 @@ permalink: "/reading/"
 * [a16z](https://a16z.com/podcasts/){:target="_blank"}
 * [Tech Tonics](http://connectedsocialmedia.com/category/tech-tonics/){:target="_blank"}
 * [Waking Up with Sam Harris](https://samharris.org/podcast/){:target="_blank"}
-
