@@ -4,7 +4,7 @@ title:  "About Me"
 permalink: "/about/"
 ---
 
-I am a family medicine doctor working in the Metro Vancouver area with a clinical focus in addictions, hospital medicine, and general outpatient care. I recently completed a [Master's of Data Science](https://masterdatascience.science.ubc.ca/) and family medicine training at the [University of British Columbia](http://mdprogram.med.ubc.ca/2016/10/11/md-student-daniel-raff-receives-the-2016-canadian-medical-hall-of-fame-award/).  
+I am a family doctor working in the Metro Vancouver area with a clinical focus in addictions, hospital medicine, and general outpatient care. I recently completed a [Master's of Data Science](https://masterdatascience.science.ubc.ca/) and family medicine training at the [University of British Columbia](http://mdprogram.med.ubc.ca/2016/10/11/md-student-daniel-raff-receives-the-2016-canadian-medical-hall-of-fame-award/).  
 
 
 <br>
