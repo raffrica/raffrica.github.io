@@ -8,7 +8,18 @@ permalink: "/reading/"
 
 ### Books *(and long articles)*:  
 
+##### 2022  
+* [Secrets of Sand Hill Road *by Scott Kupor*](https://www.goodreads.com/book/show/42348376-secrets-of-sand-hill-road?ac=1&from_search=true&qid=ymV0jWZQUf&rank=1)  
+* [Creativity, Inc. *by Ed Catmull*](https://www.goodreads.com/book/show/18077903-creativity-inc)  
+* [The Way Out: A Revolutionary, Scientifically Proven Approach to Healing Chronic Pain *by Alan Gordon + Alon Ziv*](https://www.goodreads.com/book/show/50021854-the-way-out)  
+* [Foundation *by Isaac Asimov*](https://www.goodreads.com/book/show/29579.Foundation?ac=1&from_search=true&qid=glWk1B91RD&rank=1)  
+* [Foundation and Empire *by Isaac Asimov*](https://www.goodreads.com/book/show29581.Foundation_and_Empire?ac=1&from_search=true&qid=hEb7gtySOk&rank=3)  
+* [Expecting Better *by Emily Oster*](https://www.goodreads.com/book/show/16158576-expecting-better?ac=1&from_search=true&qid=uTBLxxtlVh&rank=1)  
+* [21 Lessons for the 21st Century *by Yuval Noah Harari*](https://www.goodreads.com/book/show/38820046-21-lessons-for-the-21st-century)  
+
 ##### 2021  
+* [Atomic Habits *by James Clear*](https://www.goodreads.com/book/show/40121378-atomic-habits?ac=1&from_search=true&qid=RWrCuHpbsl&rank=1)  
+* [A Handmaid's Tale *by Margaret Atwood*](https://www.goodreads.com/book/show/38447.The_Handmaid_s_Tale?ac=1&from_search=true&qid=bjd2kaOFfJ&rank=1)  
 * [Zero to One: Notes on Startups, or How to Build the Future *by Peter Thiel, Blake Masters*](https://www.goodreads.com/book/show/18050143-zero-to-one)  
 * [The Divide: American Injustice in the Age of the Wealth Gap *by Matt Taibbi*](https://www.goodreads.com/book/show/17834864-the-divide)  
 * [Indigenous Writes: A Guide to First Nations, Metis, and Inuit Issues in Canada *by Chelsea Vowel*](https://www.goodreads.com/en/book/show/30181589)  
