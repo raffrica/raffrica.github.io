@@ -9,6 +9,8 @@ permalink: "/reading/"
 ### Books *(and long articles)*:  
 
 ##### 2022  
+* [The Comfort Crisis *by Michael Easter*](https://www.goodreads.com/book/show/55120630-the-comfort-crisis)  
+* [Come as You Are *by Emily Nagoski*](https://www.goodreads.com/book/show/22609341-come-as-you-are)  
 * [Secrets of Sand Hill Road *by Scott Kupor*](https://www.goodreads.com/book/show/42348376-secrets-of-sand-hill-road?ac=1&from_search=true&qid=ymV0jWZQUf&rank=1)  
 * [Creativity, Inc. *by Ed Catmull*](https://www.goodreads.com/book/show/18077903-creativity-inc)  
 * [The Way Out: A Revolutionary, Scientifically Proven Approach to Healing Chronic Pain *by Alan Gordon + Alon Ziv*](https://www.goodreads.com/book/show/50021854-the-way-out)  
