@@ -14,8 +14,6 @@ tags: [medicine]
 Links for the presentation:  
 "AI (Large Language Models) in Primary Care: What is happening and how to prepare?"
 
-At St. Paul's Hospital Continuing Medical Education Conference for Primary Care Physicians November 22nd, 2023
-
 **Documentation LLM Products Commercially Available In Canada**  
 *In alphabetical order, as of November 22nd, 2023*
 * [Mutuo Health](https://mutuohealth.com/)
