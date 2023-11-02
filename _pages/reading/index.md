@@ -8,6 +8,19 @@ permalink: "/reading/"
 
 ### Books *(and long articles)*:  
 
+##### 2023  
+* [Outlive: The Science and Art of Longevity *by Peter Attia*](https://www.goodreads.com/book/show/61153739-outlive)  
+* [The Minimalist Entrepreneur: How Great Founders Do More with Less *by Sahil Lavingia*](https://www.goodreads.com/book/show/56913172-the-minimalist-entrepreneur)  
+* [Children of Time *by Adrian Tchaikovsky*](https://www.goodreads.com/book/show/25499718-children-of-time)  
+* [The AI Revolution in Medicine: GPT-4 and Beyond *by Peter Lee et al*](https://www.goodreads.com/book/show/123239515-the-ai-revolution-in-medicine)  
+* [Dark Matter *by Blake Crouch*](https://www.goodreads.com/book/show/27833670-dark-matter)  
+* [Project Hail Mary *by Andy Weir*](https://www.goodreads.com/book/show/54493401-project-hail-mary)  
+* [The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma *by Mustafa Suleyman*](https://www.goodreads.com/en/book/show/90590134)  
+* [The Billion Dollar Molecule *by Barry Werth*](https://www.goodreads.com/en/book/show/38065)  
+* [The Bobiverse series by *Dennis E. Taylor*](https://www.goodreads.com/series/192752-bobiverse)  
+* [Deep Work *by Cal Newport*](https://www.goodreads.com/book/show/25744928-deep-work)  
+* [The Expanse Books 7-9 *by James S.A. Corey*](https://en.wikipedia.org/wiki/The_Expanse_(novel_series))  
+
 ##### 2022  
 * [The Comfort Crisis *by Michael Easter*](https://www.goodreads.com/book/show/55120630-the-comfort-crisis)  
 * [Come as You Are *by Emily Nagoski*](https://www.goodreads.com/book/show/22609341-come-as-you-are)  
