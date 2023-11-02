@@ -4,7 +4,7 @@ title:  "About Me"
 permalink: "/about/"
 ---
 
-I am a family doctor working in the Metro Vancouver area with a clinical focus in addictions, hospital medicine, and general outpatient care. I recently completed a [Master's of Data Science](https://masterdatascience.science.ubc.ca/) and family medicine training at the [University of British Columbia](http://mdprogram.med.ubc.ca/2016/10/11/md-student-daniel-raff-receives-the-2016-canadian-medical-hall-of-fame-award/).  
+I am a family doctor working in the Metro Vancouver area with a clinical focus in addictions, hospital medicine, and community based family practice. I completed a [Master's of Data Science](https://masterdatascience.science.ubc.ca/) and my family medicine training at the [University of British Columbia](http://mdprogram.med.ubc.ca/2016/10/11/md-student-daniel-raff-receives-the-2016-canadian-medical-hall-of-fame-award/).  
 
 
 <br>
@@ -22,9 +22,12 @@ I've made some things:
 
 * Co-Founder and board member of [Hatching Health](http://www.hatchinghealth.com/)
 * A recommender system for [Read by QxMD](https://qxmd.com/read-by-qxmd) (an app for viewing medical research papers)
-* [Visualization of Canadian Medical Health Survey Data](https://raffrica.shinyapps.io/cad_mental_health_viz/)
 * Designed the Squarespace website for the [Fort Family Practice Clinic](https://www.fortfamilypractice.ca/), and helped them in the transition to virtual care during COVID19.
-* Worked in data science or advisory roles for several healthcare startups such as [Babylon Health AI Research Team](https://www.babylonhealth.com/ai), [QxMD](https://qxmd.com/read-by-qxmd), and others.  
+* Worked in data science or advisory roles for healthcare startups or research teams including [Babylon Health AI Research Team](https://www.babylonhealth.com/ai), [QxMD](https://qxmd.com/read-by-qxmd), [UBC Digital Emergency Medicine](https://digem.med.ubc.ca/), and others.  
+* Projects:   
+    * [Patient Simulator](https://lablab.ai/event/eleven-labs-ai-hackathon/we-put-ai-in-medical-education/patient-simulator) - AI powered 'Patient Simulator' that helps clinical professionals practise tough conversations with AI patients. Landing page: [Curaclue](https://www.curaclue.com/)  
+    * [ClinAction](https://www.loom.com/share/7be8f33e90ca40fcac750b5c37fcda96). Prototype for extracting structured clinical actions from unstructured clinical documents for family doctors. Part of the XPC healthcare and AI hackathon.  
+    * [Visualization of Canadian Medical Health Survey Data](https://raffrica.shinyapps.io/cad_mental_health_viz/)  
 
 <br>
 
