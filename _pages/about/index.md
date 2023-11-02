@@ -24,7 +24,9 @@ I've made some things:
 * A recommender system for [Read by QxMD](https://qxmd.com/read-by-qxmd) (an app for viewing medical research papers)
 * Designed the Squarespace website for the [Fort Family Practice Clinic](https://www.fortfamilypractice.ca/), and helped them in the transition to virtual care during COVID19.
 * Worked in data science or advisory roles for healthcare startups or research teams including [Babylon Health AI Research Team](https://www.babylonhealth.com/ai), [QxMD](https://qxmd.com/read-by-qxmd), [UBC Digital Emergency Medicine](https://digem.med.ubc.ca/), and others.  
-* Projects:   
+<br>
+
+Projects:   
     * [Patient Simulator](https://lablab.ai/event/eleven-labs-ai-hackathon/we-put-ai-in-medical-education/patient-simulator) - AI powered 'Patient Simulator' that helps clinical professionals practise tough conversations with AI patients. Landing page: [Curaclue](https://www.curaclue.com/)  
     * [ClinAction](https://www.loom.com/share/7be8f33e90ca40fcac750b5c37fcda96). Prototype for extracting structured clinical actions from unstructured clinical documents for family doctors. Part of the XPC healthcare and AI hackathon.  
     * [Visualization of Canadian Medical Health Survey Data](https://raffrica.shinyapps.io/cad_mental_health_viz/)  
