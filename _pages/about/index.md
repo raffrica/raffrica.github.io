@@ -29,7 +29,7 @@ I've made some things:
 Projects:   
     * [Patient Simulator](https://lablab.ai/event/eleven-labs-ai-hackathon/we-put-ai-in-medical-education/patient-simulator) - AI powered 'Patient Simulator' that helps clinical professionals practise tough conversations with AI patients. Landing page: [Curaclue](https://www.curaclue.com/)  
     * [ClinAction](https://www.loom.com/share/7be8f33e90ca40fcac750b5c37fcda96). Prototype for extracting structured clinical actions from unstructured clinical documents for family doctors. Part of the XPC healthcare and AI hackathon.  
-    * [Visualization of Canadian Medical Health Survey Data](https://raffrica.shinyapps.io/cad_mental_health_viz/)  
+    * [Antimicrobial Dashboard](https://cic.ubc.ca/project/antimicrobial-dashboard/) - Proposed and advised on the development of a FHIR-based application for streamlined antimicrobial prescribing based on EMR data such as prior antibiotics and microbial cultures.  
 
 <br>
 
