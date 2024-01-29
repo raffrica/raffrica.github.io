@@ -13,7 +13,7 @@ I gave the following talk at the 69th annual St Paul's Continuing Medical Educat
 "AI (Large Language Models) in Primary Care: What is happening and how to prepare?"
 
 
-<iframe width="420" height="315" src="https://youtu.be/bZI-2zosuDE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bZI-2zosuDE?si=UmtASTpZJ68W3c9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **Documentation LLM Products Commercially Available In Canada**  
 *In alphabetical order, as of November 22nd, 2023*
