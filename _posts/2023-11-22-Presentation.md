@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AI (Large Language Models) in Primary Care - Links"
+title:  "AI (Large Language Models) in Primary Care"
 date:   2023-11-22 17:48:23
 categories: [medicine]
 tags: [medicine]
@@ -10,7 +10,7 @@ tags: [medicine]
 ----------
 I gave the following talk at the 69th annual St Paul's Continuing Medical Education conference with the intended audience of family doctors attending the conference. 
 
-"AI (Large Language Models) in Primary Care: What is happening and how to prepare?"
+**AI (Large Language Models) in Primary Care: What is happening and how to prepare?**
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bZI-2zosuDE?si=UmtASTpZJ68W3c9t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

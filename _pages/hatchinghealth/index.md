@@ -8,4 +8,4 @@ permalink: "/hatchinghealth/"
 
 I started [Hatching Health](https://www.hatchinghealth.ca/){:target="_blank_"} with the aim of bringing like-minded people from healthcare and technical backgrounds together to solve relevant medical problems. In combination with our annual innovation weekend, several workshops and networking events throughout the year, we aim to grow an agile community of medical innovators in British Columbia.
 
-*Hatching Health has been on hiatus since COVID19*  
+*Hatching Health ran for 5 years until COVID19 onset*  
