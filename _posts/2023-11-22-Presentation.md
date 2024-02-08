@@ -30,7 +30,8 @@ I gave the following talk at the 69th annual St Paul's Continuing Medical Educat
 
 
 **Further Reading**   
-  
+
+* [Early Evidence from an implementation of Ambient AI at Kaiser Permanente *published in NEJM Catalyst*](https://catalyst.nejm.org/doi/full/10.1056/CAT.23.0404)  
 * [The AI Revolution in Medicine: GPT-4 And Beyond *by Peter Lee, Carey Goldberg, and Isaac Kohane*](https://www.amazon.ca/AI-Revolution-Medicine-GPT-4-Beyond/dp/0138200130) - book  
 * [A Framework for Critically Assessing ChatGPT and Other Large Language Artificial Intelligence Model Applications in Health Care](https://www.mcpdigitalhealth.org/article/S2949-7612(23)00022-6/fulltext) - journal article    
 * [Philosophical Blog Post (long) - We're all Stochastic Parrots: What AI can teach us about being human](https://hyperstellar.substack.com/p/let-me-finish-your-sentences) - blog post  
